@@ -4,6 +4,8 @@
 
 这是非官方同人阅读工具。它不会生成或修改故事正文，也不附带原作剧情全文、角色卡、预设或世界书。
 
+**[打开安装页](https://epsilonmeow.github.io/arknights-story-player/)** · [下载酒馆助手脚本](https://epsilonmeow.github.io/arknights-story-player/install/%E9%A3%8E%E6%9A%B4%E7%9E%AD%E6%9C%9B-0.3.0.json) · [验证记录](VALIDATION.md)
+
 ## 安装
 
 1. 使用 SillyTavern 和酒馆助手。当前按 SillyTavern 1.18.0、酒馆助手 4.11.0 的接口制作；其他版本需自行验证。
