@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.env*
+*.log
+state/
+private/
+backups/
+evidence/
+test-host/
+*.zip
