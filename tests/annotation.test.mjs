@@ -1,16 +1,16 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {validateConnection,connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,requestAnnotation} from '../versions/0.3.2/annotation-client.mjs';
-import {parseStory} from '../versions/0.3.2/core.mjs';
-import {createAnnotationRunner} from '../versions/0.3.2/assets/annotation-runner.mjs';
-const pack=JSON.parse(fs.readFileSync(new URL('../versions/0.3.2/pack.json',import.meta.url)));
+import {validateConnection,connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,requestAnnotation} from '../versions/0.3.3/annotation-client.mjs';
+import {parseStory} from '../versions/0.3.3/core.mjs';
+import {createAnnotationRunner} from '../versions/0.3.3/assets/annotation-runner.mjs';
+const pack=JSON.parse(fs.readFileSync(new URL('../versions/0.3.3/pack.json',import.meta.url)));
 const parsed=parseStory('号角：先检查走廊。',180,'speaker-lines');
 const config={protocol:'openai',url:'http://127.0.0.1:19099/v1',model:'fixture-model',key:'',maxTokens:16384};
 const args={config,parsed,pack,previous:{},player:{playerName:'测试玩家'},origin:'http://127.0.0.1:19098',headers:{'X-CSRF-Token':'fixture-token'}};
 const row={id:'f0',speaker:'号角',kind:'dialogue',sceneChange:true,visualChange:true,background:null,place:'走廊',present:['号角'],display:['avg_npc_229_1'],communication:[],remote:[],referenced:[],focus:'avg_npc_229_1',front:'avg_npc_229_1',variants:{avg_npc_229_1:'1'}};
 test('explicit connection, no empty URL/model or insecure remote fallback',()=>{
-  for(const patch of [{url:''},{model:''},{url:'http://remote.example/v1'},{url:'https://x.example/v1?key=secret'},{url:'https://u:p@x.example/v1'},{url:'https://x.example/v1/chat/completions'},{maxTokens:0}])assert.throws(()=>validateConnection({...config,...patch}));
+  for(const patch of [{url:''},{model:''},{url:'http://remote.example/v1'},{url:'https://x.example/v1?key=secret'},{url:'https://u:p@x.example/v1'},{url:'https://x.example/v1/chat/completions'},{maxTokens:-1}])assert.throws(()=>validateConnection({...config,...patch}));
   const body=requestBody(config,'ONLY THIS PROMPT');assert.equal(body.reverse_proxy,config.url);assert.equal(body.proxy_password,'');assert.equal(body.chat_completion_source,'openai');assert.deepEqual(body.messages,[{role:'user',content:'ONLY THIS PROMPT'}]);assert(!('secret_id'in body));
   assert.equal(validateConnection({...config,model:'provider/model'}).model,'provider/model');
   assert.equal(requestBody({...config,protocol:'gemini',url:'http://127.0.0.1:19099'},'p').chat_completion_source,'makersuite');
