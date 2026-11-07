@@ -1,0 +1,1130 @@
+{
+  "schema": 1,
+  "protocol": 2,
+  "id": "ch09-09-02-confirmed-v1",
+  "name": "9-2《鬼魂危机》行动前",
+  "aliases": {
+    "Outcast": "avg_npc_245_1",
+    "煌": "char_017_homura_3",
+    "号角": "avg_npc_229_1",
+    "风笛": "avg_222_bpipe_1",
+    "维多利亚士兵": "avg_npc_241",
+    "凯利上尉": "avg_npc_238",
+    "副官希尔": "avg_npc_248"
+  },
+  "contextualAliases": [
+    {
+      "name": "斯卡曼德罗斯中尉",
+      "characterId": "avg_npc_229_1",
+      "node": "level_main_09-01_beg",
+      "status": "contextual_address",
+      "note": "副官对号角的称呼；不补充本段未给出的全名。"
+    }
+  ],
+  "characters": {
+    "avg_npc_245_1": {
+      "name": "Outcast",
+      "default": "1",
+      "variants": {
+        "1": "assets/ch09-09-02/avg_npc_245_1__1.png",
+        "2": "assets/ch09-09-02/avg_npc_245_1__2.png",
+        "4": "assets/ch09-09-02/avg_npc_245_1__4.png",
+        "6": "assets/ch09-09-02/avg_npc_245_1__6.png"
+      },
+      "outfit": "白灰色长发；黑色礼帽压低遮住部分脸；头顶光环、背后浅色翼状结构；深色披肩、作战服、手套与长靴；站立，一手靠近腰侧。",
+      "variantInfo": {
+        "1": {
+          "assetId": "avg_npc_245_1#1",
+          "description": "可见的一只眼睁开；嘴闭合，嘴角轻微上翘；另一只眼受帽檐与头发遮挡。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "2": {
+          "assetId": "avg_npc_245_1#2",
+          "description": "可见的一只眼睁开；嘴闭合，嘴角较平；帽檐遮住部分脸。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "4": {
+          "assetId": "avg_npc_245_1#4",
+          "description": "可见的一只眼睁开；嘴微张，嘴角较平。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "6": {
+          "assetId": "avg_npc_245_1#6",
+          "description": "可见的一只眼闭合；嘴角上扬，嘴微张。",
+          "composition": "face_overlay",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "char_017_homura_3": {
+      "name": "煌",
+      "default": "1",
+      "variants": {
+        "1": "assets/ch09-09-02/char_017_homura_3__1.png"
+      },
+      "outfit": "深蓝黑色长发、兽耳、蓝绿色眼睛；白色上衣配黑色束带、短裤、腿部绑带、手套和靴；手持大型锯状武器，身旁有长形装备箱；站立。",
+      "variantInfo": {
+        "1": {
+          "assetId": "char_017_homura_3#1",
+          "description": "睁眼，嘴闭合；脸朝画面前方略偏侧。原作在通讯切入窗口中使用，本包保留完整立绘，不烘焙通讯裁切。",
+          "composition": "whole_body_replacement",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "avg_npc_229_1": {
+      "name": "号角",
+      "default": "1",
+      "variants": {
+        "1": "assets/ch09-09-02/avg_npc_229_1__1.png",
+        "2": "assets/ch09-09-02/avg_npc_229_1__2.png",
+        "3": "assets/ch09-09-02/avg_npc_229_1__3.png",
+        "4": "assets/ch09-09-02/avg_npc_229_1__4.png",
+        "5": "assets/ch09-09-02/avg_npc_229_1__5.png",
+        "7": "assets/ch09-09-02/avg_npc_229_1__7.png"
+      },
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "variantInfo": {
+        "1": {
+          "assetId": "avg_npc_229_1#1",
+          "description": "睁眼，眉略向内收；嘴闭合、嘴角较平。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "2": {
+          "assetId": "avg_npc_229_1#2",
+          "description": "睁眼，眼睑较低；眉向内收；嘴闭合。与 #1 的区别较细，不赋予固定情绪名。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "3": {
+          "assetId": "avg_npc_229_1#3",
+          "description": "睁眼，眉内端抬起；嘴张成小圆形。配置标记为整身替换，虽然主要可见区别集中在脸部。",
+          "composition": "whole_body_replacement",
+          "eligible": true
+        },
+        "4": {
+          "assetId": "avg_npc_229_1#4",
+          "description": "睁眼，嘴张成圆形，眉形较平。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "5": {
+          "assetId": "avg_npc_229_1#5",
+          "description": "睁眼，嘴小幅张开；眉内端略抬起。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "7": {
+          "assetId": "avg_npc_229_1#7",
+          "description": "睁眼，眉向内下压；张口，可见较大的口部开口。",
+          "composition": "face_overlay",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "avg_222_bpipe_1": {
+      "name": "风笛",
+      "default": "4",
+      "variants": {
+        "1": "assets/ch09-09-02/avg_222_bpipe_1__1.png",
+        "2": "assets/ch09-09-02/avg_222_bpipe_1__2.png",
+        "3": "assets/ch09-09-02/avg_222_bpipe_1__3.png",
+        "4": "assets/ch09-09-02/avg_222_bpipe_1__4.png",
+        "5": "assets/ch09-09-02/avg_222_bpipe_1__5.png",
+        "6": "assets/ch09-09-02/avg_222_bpipe_1__6.png",
+        "7": "assets/ch09-09-02/avg_222_bpipe_1__7.png",
+        "8": "assets/ch09-09-02/avg_222_bpipe_1__8.png",
+        "9": "assets/ch09-09-02/avg_222_bpipe_1__9.png"
+      },
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "variantInfo": {
+        "1": {
+          "assetId": "avg_222_bpipe_1#1",
+          "description": "睁眼，张口露齿，嘴角上扬。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "2": {
+          "assetId": "avg_222_bpipe_1#2",
+          "description": "眼睛睁大，嘴张成较大的圆形。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "3": {
+          "assetId": "avg_222_bpipe_1#3",
+          "description": "睁眼，眉内端抬起，嘴张开且嘴角下弯。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "4": {
+          "assetId": "avg_222_bpipe_1#4",
+          "description": "睁眼，眉内端抬起，嘴闭合，嘴角略下弯。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "5": {
+          "assetId": "avg_222_bpipe_1#5",
+          "description": "睁眼，嘴小幅张开，眉内端略抬起。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "6": {
+          "assetId": "avg_222_bpipe_1#6",
+          "description": "睁眼，眉向内下压；张口，可见牙齿。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "7": {
+          "assetId": "avg_222_bpipe_1#7",
+          "description": "睁眼，嘴闭合并略向一侧抿起。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "8": {
+          "assetId": "avg_222_bpipe_1#8",
+          "description": "一只眼闭合、另一只眼睁开；嘴角上扬。",
+          "composition": "face_overlay",
+          "eligible": true
+        },
+        "9": {
+          "assetId": "avg_222_bpipe_1#9",
+          "description": "双眼闭合，张口，嘴角上扬。",
+          "composition": "face_overlay",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "avg_npc_241": {
+      "name": "维多利亚士兵",
+      "default": "default",
+      "variants": {
+        "default": "assets/ch09-09-02/avg_npc_241.png"
+      },
+      "outfit": "深灰蓝色短发、兽耳和尾巴；深绿色长制服、浅色翻领、腰带和黑靴；一手叉腰，另一手下垂，侧身站立。",
+      "variantInfo": {
+        "default": {
+          "assetId": "avg_npc_241",
+          "description": "睁眼，嘴闭合，头略低且侧向一边；没有独立表情差分引用。",
+          "composition": "base_full_body",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "avg_npc_238": {
+      "name": "凯利上尉",
+      "default": "default",
+      "variants": {
+        "default": "assets/ch09-09-02/avg_npc_238.png"
+      },
+      "outfit": "灰色短发；军帽、深绿长大衣、浅灰宽翻领、胸前勋章、腰带、手套和黑色长靴；身体朝前，双手位于身体两侧或身后。",
+      "variantInfo": {
+        "default": {
+          "assetId": "avg_npc_238",
+          "description": "眼睛略眯、嘴闭合；面部有明显纹路。手的位置部分被衣服遮挡，不确定精确手势。",
+          "composition": "base_full_body",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    },
+    "avg_npc_248": {
+      "name": "副官希尔",
+      "default": "default",
+      "variants": {
+        "default": "assets/ch09-09-02/avg_npc_248.png"
+      },
+      "outfit": "棕色短发、兽耳和尾巴；深绿色长制服、浅色翻领、腰带和黑靴；一手叉腰，一手下垂，侧身站立。",
+      "variantInfo": {
+        "default": {
+          "assetId": "avg_npc_248",
+          "description": "睁眼，嘴闭合；头略向一侧。与士兵服装及姿态近似，但脸与发型不同，不能作为同一人物合并。",
+          "composition": "base_full_body",
+          "eligible": true
+        }
+      },
+      "nodes": [
+        "level_main_09-01_beg"
+      ]
+    }
+  },
+  "backgrounds": {
+    "21_G3_victoria_street_d": "assets/ch09-09-02/21_G3_victoria_street_d.png",
+    "21_G1_interrogat_room": "assets/ch09-09-02/21_G1_interrogat_room.png",
+    "bg_black": "assets/ch09-09-02/bg_black.png"
+  },
+  "illustrations": {},
+  "assets": [
+    {
+      "id": "21_G3_victoria_street_d",
+      "type": "background",
+      "name": "小丘郡街道",
+      "characterId": null,
+      "file": "assets/ch09-09-02/21_G3_victoria_street_d.png",
+      "size": [
+        1024,
+        576
+      ],
+      "bytes": 1020800,
+      "sha256": "0dd36896b120a5442f6f5195469120e0656224924467315292985b9983796ddb",
+      "eligible": true,
+      "description": "室外街道与开阔路面；多层石砌建筑、路灯、棚架；灰黄色天光，画面有明暗阴影。",
+      "outfit": null,
+      "aliases": [],
+      "composition": "Unity Sprite decoded; preserve original canvas",
+      "node": "level_main_09-01_beg",
+      "place": "victoria_hillock_street",
+      "lighting": "灰黄色自然光",
+      "timeOfDay": "白昼光照；具体时刻未知",
+      "physicalPlaceKnown": true,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "41c0264d27012be3c31720eb2c2d1ced73990961caae4b6ace164618de0603e5",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_245_1#1",
+      "type": "character",
+      "name": "Outcast",
+      "characterId": "avg_npc_245_1",
+      "file": "assets/ch09-09-02/avg_npc_245_1__1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 421965,
+      "sha256": "85ad81ead23440b9210e09e645ca6b95f4ab29c51f2964af8a2085b44bc797db",
+      "eligible": true,
+      "description": "可见的一只眼睁开；嘴闭合，嘴角轻微上翘；另一只眼受帽檐与头发遮挡。",
+      "outfit": "白灰色长发；黑色礼帽压低遮住部分脸；头顶光环、背后浅色翼状结构；深色披肩、作战服、手套与长靴；站立，一手靠近腰侧。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "eae7a7a1a9d0fbb898b2baa9962917d60bd7e5938220679ea567ba0a2229520a",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_245_1#4",
+      "type": "character",
+      "name": "Outcast",
+      "characterId": "avg_npc_245_1",
+      "file": "assets/ch09-09-02/avg_npc_245_1__4.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 421936,
+      "sha256": "55426488e454afe6a70b481487ca8724e856f6b020b6093b855a19ea3e9ec851",
+      "eligible": true,
+      "description": "可见的一只眼睁开；嘴微张，嘴角较平。",
+      "outfit": "白灰色长发；黑色礼帽压低遮住部分脸；头顶光环、背后浅色翼状结构；深色披肩、作战服、手套与长靴；站立，一手靠近腰侧。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "eae7a7a1a9d0fbb898b2baa9962917d60bd7e5938220679ea567ba0a2229520a",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "char_017_homura_3#1",
+      "type": "character",
+      "name": "煌",
+      "characterId": "char_017_homura_3",
+      "file": "assets/ch09-09-02/char_017_homura_3__1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 557203,
+      "sha256": "f437ffdbb6721a1c1ea4b1053dec72cf2bf6c1d08af70c4eeea9f2514f217a74",
+      "eligible": true,
+      "description": "睁眼，嘴闭合；脸朝画面前方略偏侧。原作在通讯切入窗口中使用，本包保留完整立绘，不烘焙通讯裁切。",
+      "outfit": "深蓝黑色长发、兽耳、蓝绿色眼睛；白色上衣配黑色束带、短裤、腿部绑带、手套和靴；手持大型锯状武器，身旁有长形装备箱；站立。",
+      "aliases": [],
+      "composition": "whole_body_replacement",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "3e1420b58a85d0247e5c52ae9abc180363dbd87dbd7e58afd775d766019a61e6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_245_1#6",
+      "type": "character",
+      "name": "Outcast",
+      "characterId": "avg_npc_245_1",
+      "file": "assets/ch09-09-02/avg_npc_245_1__6.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 421988,
+      "sha256": "1f9f6df511ca576ea1985dc41d798abd5d9a84c8e9b7ac7164865a25c60d128f",
+      "eligible": true,
+      "description": "可见的一只眼闭合；嘴角上扬，嘴微张。",
+      "outfit": "白灰色长发；黑色礼帽压低遮住部分脸；头顶光环、背后浅色翼状结构；深色披肩、作战服、手套与长靴；站立，一手靠近腰侧。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "eae7a7a1a9d0fbb898b2baa9962917d60bd7e5938220679ea567ba0a2229520a",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_245_1#2",
+      "type": "character",
+      "name": "Outcast",
+      "characterId": "avg_npc_245_1",
+      "file": "assets/ch09-09-02/avg_npc_245_1__2.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 421962,
+      "sha256": "e70c0f91d4b46aea867458c242cf2d3ba2cf45b72f4f69d9c5d8ac715c37c3b5",
+      "eligible": true,
+      "description": "可见的一只眼睁开；嘴闭合，嘴角较平；帽檐遮住部分脸。",
+      "outfit": "白灰色长发；黑色礼帽压低遮住部分脸；头顶光环、背后浅色翼状结构；深色披肩、作战服、手套与长靴；站立，一手靠近腰侧。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "eae7a7a1a9d0fbb898b2baa9962917d60bd7e5938220679ea567ba0a2229520a",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "21_G1_interrogat_room",
+      "type": "background",
+      "name": "维多利亚小丘郡驻军营地审讯室，走廊",
+      "characterId": null,
+      "file": "assets/ch09-09-02/21_G1_interrogat_room.png",
+      "size": [
+        1024,
+        576
+      ],
+      "bytes": 746316,
+      "sha256": "039f7707f1b6f48cee1dc68af92f43c93cb52aaf995b726c43e60d924744216d",
+      "eligible": true,
+      "description": "室内狭长走廊；铁门、栅栏、墙上电线和顶部管道；橙色壁灯与远处冷色亮光并存，整体昏暗。",
+      "outfit": null,
+      "aliases": [],
+      "composition": "Unity Sprite decoded; preserve original canvas",
+      "node": "level_main_09-01_beg",
+      "place": "hillock_garrison_interrogation_corridor",
+      "lighting": "暗处、暖色灯与冷色门口光",
+      "timeOfDay": "本段第一次出现时：6:50 A.M. 天气/阴（脚本第91行）",
+      "physicalPlaceKnown": true,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "41c0264d27012be3c31720eb2c2d1ced73990961caae4b6ace164618de0603e5",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#1",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 706856,
+      "sha256": "ab455161aa3e95167addc0be15f1a603e163ce5eb7e66183995f270fbe2bc603",
+      "eligible": true,
+      "description": "睁眼，眉略向内收；嘴闭合、嘴角较平。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#4",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__4.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 414919,
+      "sha256": "d78f96d85771dd7dd03c713b89d419dafb300718513dcb4f70f8b9c161adcf75",
+      "eligible": true,
+      "description": "睁眼，眉内端抬起，嘴闭合，嘴角略下弯。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#5",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__5.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 706823,
+      "sha256": "f47721da79d04cd027073e7e59a0c0d72b4372b1524dc356253afe6065d3ca84",
+      "eligible": true,
+      "description": "睁眼，嘴小幅张开；眉内端略抬起。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#9",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__9.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 414875,
+      "sha256": "493f530b23e740b147c97913a52537343cb8c60def68d1ac71d0175a9770f1a4",
+      "eligible": true,
+      "description": "双眼闭合，张口，嘴角上扬。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#3",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__3.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 706472,
+      "sha256": "9b0d35ea238a0dc92761a1a7b050e1ac1f955ba70f07d5ceffd6acebc17c3896",
+      "eligible": true,
+      "description": "睁眼，眉内端抬起；嘴张成小圆形。配置标记为整身替换，虽然主要可见区别集中在脸部。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "whole_body_replacement",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#1",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 415229,
+      "sha256": "d0523ea37c24853c087244367e53891b0ce97540da11034e3e40c5755a4d2818",
+      "eligible": true,
+      "description": "睁眼，张口露齿，嘴角上扬。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#5",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__5.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 414949,
+      "sha256": "e9d1cbc8aef6f9e292ae02fba83a060d5e8aed82a8ba0117025e0fdf57f47c80",
+      "eligible": true,
+      "description": "睁眼，嘴小幅张开，眉内端略抬起。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#2",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__2.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 706724,
+      "sha256": "b7c156a6e7a7886bc3154ae4d64b8dbbf6c9768956e37fa1cf9491c70cd8cf58",
+      "eligible": true,
+      "description": "睁眼，眼睑较低；眉向内收；嘴闭合。与 #1 的区别较细，不赋予固定情绪名。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_241",
+      "type": "character",
+      "name": "维多利亚士兵",
+      "characterId": "avg_npc_241",
+      "file": "assets/ch09-09-02/avg_npc_241.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 340960,
+      "sha256": "43e0d07472c52972aebc4ad86490564e24cf58098ca2c723298d3250f822eda7",
+      "eligible": true,
+      "description": "睁眼，嘴闭合，头略低且侧向一边；没有独立表情差分引用。",
+      "outfit": "深灰蓝色短发、兽耳和尾巴；深绿色长制服、浅色翻领、腰带和黑靴；一手叉腰，另一手下垂，侧身站立。",
+      "aliases": [],
+      "composition": "base_full_body",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "950f55efb5d4bc1fc02a00565746044a3f32166c03408db5a6796ea58d8b0553",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#2",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__2.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 415217,
+      "sha256": "a40415f5c11a7420c12d5211695f0e51b425dda461715df73897ff753dc059da",
+      "eligible": true,
+      "description": "眼睛睁大，嘴张成较大的圆形。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#7",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__7.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 706956,
+      "sha256": "2ed0130daceff2854f98b4ab8b84e3f05b3bef76acc41d3292bdf2c2438cedc6",
+      "eligible": true,
+      "description": "睁眼，眉向内下压；张口，可见较大的口部开口。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#3",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__3.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 415114,
+      "sha256": "6831479abddb59800c6f20a70aa393e9a30974e021719aac4f900abe97b09820",
+      "eligible": true,
+      "description": "睁眼，眉内端抬起，嘴张开且嘴角下弯。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_229_1#4",
+      "type": "character",
+      "name": "号角",
+      "characterId": "avg_npc_229_1",
+      "file": "assets/ch09-09-02/avg_npc_229_1__4.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 707006,
+      "sha256": "220f267f6a1d54d4663a609c244a4ff29dbf184485656138b9c66e0b251b8b78",
+      "eligible": true,
+      "description": "睁眼，嘴张成圆形，眉形较平。",
+      "outfit": "金色长发、兽耳、绿色眼睛；深绿作战外套、短裙与长靴；两侧有大型盾状装备及长柄器械；站立，双手垂下。",
+      "aliases": [
+        {
+          "name": "斯卡曼德罗斯中尉",
+          "status": "contextual_address",
+          "line": 404,
+          "note": "副官对号角的称呼；不补充本段未给出的全名。"
+        }
+      ],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ed2b8abafe8970357862fd02bb9f94ce8e959615a46878350c43d0a1c63841d6",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "bg_black",
+      "type": "background",
+      "name": null,
+      "characterId": null,
+      "file": "assets/ch09-09-02/bg_black.png",
+      "size": [
+        1024,
+        576
+      ],
+      "bytes": 3689,
+      "sha256": "7f26b3aa95a771ab468edacc4d587cb045fb56ca982a5e52e4ced6dae4275f06",
+      "eligible": true,
+      "description": "纯黑整幅背景。它不是一个可以确认名称的地点，也不能仅凭黑底断定夜晚。",
+      "outfit": null,
+      "aliases": [],
+      "composition": "Unity Sprite decoded; preserve original canvas",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": "全黑",
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "79723b7cd7594c7617a5386b929acf6f4ea463f9c43a8730c5f104e4cfd12ec0",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_238",
+      "type": "character",
+      "name": "凯利上尉",
+      "characterId": "avg_npc_238",
+      "file": "assets/ch09-09-02/avg_npc_238.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 427708,
+      "sha256": "d6277b253fc4ebc722ef369913bb0a1203fa9667cd9f68b04edac52cac01959b",
+      "eligible": true,
+      "description": "眼睛略眯、嘴闭合；面部有明显纹路。手的位置部分被衣服遮挡，不确定精确手势。",
+      "outfit": "灰色短发；军帽、深绿长大衣、浅灰宽翻领、胸前勋章、腰带、手套和黑色长靴；身体朝前，双手位于身体两侧或身后。",
+      "aliases": [],
+      "composition": "base_full_body",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "6c99bebe56639630304122b5668167e3dd1cd61600fe7a3e4e73cdaecd81d3fe",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#7",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__7.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 414917,
+      "sha256": "e73d334e8f8dc15936ea459ddc028bf2be9fa6376305e78c72474c0bb4b566a5",
+      "eligible": true,
+      "description": "睁眼，嘴闭合并略向一侧抿起。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#6",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__6.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 415313,
+      "sha256": "95268f075bb4e13541c58154a1e122dde0307d28c7ad36c7c6cc51ca83fd4409",
+      "eligible": true,
+      "description": "睁眼，眉向内下压；张口，可见牙齿。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_npc_248",
+      "type": "character",
+      "name": "副官希尔",
+      "characterId": "avg_npc_248",
+      "file": "assets/ch09-09-02/avg_npc_248.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 351328,
+      "sha256": "dfd89d9e619d50206dccf6a3ccd738fa28c4506742f19828d7287fd89a45b5be",
+      "eligible": true,
+      "description": "睁眼，嘴闭合；头略向一侧。与士兵服装及姿态近似，但脸与发型不同，不能作为同一人物合并。",
+      "outfit": "棕色短发、兽耳和尾巴；深绿色长制服、浅色翻领、腰带和黑靴；一手叉腰，一手下垂，侧身站立。",
+      "aliases": [],
+      "composition": "base_full_body",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "ee81bb5419eb69ed25055578e1fc8c3181b65eedbb9632599962314e5a3abdad",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    },
+    {
+      "id": "avg_222_bpipe_1#8",
+      "type": "character",
+      "name": "风笛",
+      "characterId": "avg_222_bpipe_1",
+      "file": "assets/ch09-09-02/avg_222_bpipe_1__8.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 414979,
+      "sha256": "f7cbd64421c5a5ad5bcb856891332bc35f1c077640d01aa4855954d9f0b825cb",
+      "eligible": true,
+      "description": "一只眼闭合、另一只眼睁开；嘴角上扬。",
+      "outfit": "橙红色长发、角、紫色眼睛；白色高领上衣、深色胸甲和肩甲、红格短裙、深色腿部护具；一手抬在肩旁，另一手持竖直的长柄武器；站立。",
+      "aliases": [],
+      "composition": "face_overlay",
+      "node": "level_main_09-01_beg",
+      "place": null,
+      "lighting": null,
+      "timeOfDay": null,
+      "physicalPlaceKnown": false,
+      "provenance": {
+        "package": "ch09-node-09-01-beg",
+        "sourceSha256": "33fb59a03becc055914ae53f42bb6c713548ce4b0fa4e703d2e593cc8cd49fe3",
+        "visualStatus": "checked_export",
+        "nativeFullNodeVerified": false
+      },
+      "preload": "on-demand"
+    }
+  ],
+  "nodes": {
+    "level_main_09-01_beg": {
+      "title": "9-2《鬼魂危机》行动前",
+      "internalId": "level_main_09-01_beg"
+    }
+  },
+  "withoutPortrait": [
+    "三角铁",
+    "虚弱的青年"
+  ],
+  "layout": {
+    "evidence": "依据原生截图调整的网页构图，非原生精确参数；完整1024画布。样例叠放随focus，是此样例选择，不声称全局原生算法。",
+    "pairs": {
+      "avg_npc_229_1|avg_222_bpipe_1": {
+        "avg_npc_229_1": {
+          "x": 32,
+          "y": 11,
+          "sizeVh": 148,
+          "sizeVw": 75
+        },
+        "avg_222_bpipe_1": {
+          "x": 68,
+          "y": -12,
+          "sizeVh": 148,
+          "sizeVw": 75
+        }
+      }
+    }
+  }
+}
