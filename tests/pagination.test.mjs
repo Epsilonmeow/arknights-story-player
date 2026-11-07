@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {paginatePresentation,pageAtOffset} from '../versions/0.3.4/pagination.mjs';
+import {paginatePresentation,pageAtOffset} from '../versions/0.3.6/pagination.mjs';
 const fits=({text,original})=>Array.from(text).length+Array.from(original).length<=48;
 test('long bilingual passages fit, preserve exact text and order, and remain independently pageable',()=>{
   const text=('长句保持原来的字词。下一句继续阅读！\n').repeat(20),original=('Original words remain in order. ').repeat(25);

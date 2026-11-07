@@ -1,0 +1,17 @@
+{
+  "type": "script",
+  "enabled": false,
+  "name": "风暴瞭望 · AI剧情播放器 0.3.6",
+  "id": "c7f9d731-e016-4a2f-9082-9b0efec8b441",
+  "content": "try {\nif(typeof TavernHelper==='undefined'||typeof SillyTavern==='undefined')throw Error('需要酒馆助手');\nconst c=SillyTavern.getContext();\nif(!c.getRequestHeaders||!c.saveChat)throw Error('当前酒馆接口不兼容');\nwindow.parent.__arkPlayer?.destroy();\nconst {mount}=await import(\"https://epsilonmeow.github.io/arknights-story-player/versions/0.3.6/app.mjs\");\nawait mount({parent:window.parent,helper:TavernHelper,core:()=>SillyTavern.getContext(),eventOn,tavern_events});\n} catch(error) {window.parent.toastr?.error('播放器未载入：请检查网络、酒馆助手和版本要求，再重新启用脚本。');console.error('[ArkPlayer] startup failed:',error?.name);}",
+  "info": "第九章公开版。需 SillyTavern 1.18.0 与酒馆助手 4.11.0（已核对接口的版本）。导入后自行开启；设置中填写标注 URL、Key 和模型。每次手动标注最多一次请求，无自动重试。不含世界书或正文。远程代码在酒馆中运行，仅从信任的发布地址导入。",
+  "button": {
+    "enabled": false,
+    "buttons": []
+  },
+  "data": {},
+  "export_with": {
+    "data": false,
+    "button": false
+  }
+}

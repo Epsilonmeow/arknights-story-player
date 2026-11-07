@@ -1,0 +1,1533 @@
+{
+  "schema_version": 2,
+  "purpose": "AI正文演出播放器的自由场景素材，不重放原作路线",
+  "path_base": "package root",
+  "source_version": {
+    "version": "26-10-22-13-56-52-86025105",
+    "manifest_sha256": "c76e35f7650d60bc9a92c1723951ba3dd4c4c62ec483083d72607b0b1de8231e",
+    "client": "Arknights_Data"
+  },
+  "assets": [
+    {
+      "id": "bg_warehouse",
+      "type": "background",
+      "name": null,
+      "display_label": "仓库／货栈室内候选",
+      "official_place_name": null,
+      "description": "室内成排货架和箱件；中央过道、木质地面；整体较暗，侧窗及远处有少量光。",
+      "interior": true,
+      "time_of_day": null,
+      "lighting": "低照度，少量窗口光",
+      "suitable_scenes": "库存盘点、仓库搜查、躲藏、货物交接",
+      "limits": "不要当成明亮商店或露天货场。",
+      "same_location_group": null,
+      "state_variant": null,
+      "file": "assets/supplement-20261106/backgrounds/bg_warehouse.png",
+      "size": [
+        1024,
+        576
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "1aac7b882bf6aabb0eeddf306af60637037f6c99ea324fbce44d593d325103bd",
+      "source": {
+        "container": "dyn/avg/backgrounds/bg_warehouse.png",
+        "bundle": "avg_bkg_h1_bg_wa_0.ab",
+        "type": "Sprite",
+        "sha256": "3e3b38ec70c0d42a558d40c4c1c774fd39772721a690e01283497c8d1b43c849"
+      },
+      "uses": [
+        {
+          "node": "level_st_09-01",
+          "line": 16,
+          "container": "dyn/gamedata/story/obt/main/level_st_09-01.txt",
+          "source_sha256": "2173760cc79011da602ba67b715e69dc183791bdf6dbafc7c7d74e9d5acf7c56"
+        },
+        {
+          "node": "level_main_07-07_end",
+          "line": 14,
+          "container": "dyn/gamedata/story/obt/main/level_main_07-07_end.txt",
+          "source_sha256": "0250bd8a496507daaa4f3dd394bda70e8b6b216ca87b2e3ad869dde39abb003a"
+        },
+        {
+          "node": "level_main_07-07_end",
+          "line": 41,
+          "container": "dyn/gamedata/story/obt/main/level_main_07-07_end.txt",
+          "source_sha256": "0250bd8a496507daaa4f3dd394bda70e8b6b216ca87b2e3ad869dde39abb003a"
+        },
+        {
+          "node": "level_main_07-08_beg",
+          "line": 11,
+          "container": "dyn/gamedata/story/obt/main/level_main_07-08_beg.txt",
+          "source_sha256": "df780163cb3e7b34c273f3a51d2ba57f72e4958929c6de22bfabbb2a64e03e5d"
+        },
+        {
+          "node": "level_main_07-08_end",
+          "line": 6,
+          "container": "dyn/gamedata/story/obt/main/level_main_07-08_end.txt",
+          "source_sha256": "6b9b4940d26c94d7d0574668d1005f2f7ebc347c67d68c7fcc751ad20e57f625"
+        },
+        {
+          "node": "level_main_10-01_end",
+          "line": 591,
+          "container": "dyn/gamedata/story/obt/main/level_main_10-01_end.txt",
+          "source_sha256": "d7f6ef6ee169a6f62f4c67bf829a1753159346110ca3980455de2149070bb978"
+        },
+        {
+          "node": "level_main_10-05_beg",
+          "line": 24,
+          "container": "dyn/gamedata/story/obt/main/level_main_10-05_beg.txt",
+          "source_sha256": "1f324b01a242d59a26881ecfaf5afd1d525c1e0fd4933de754bb72dfa5fdf3af"
+        },
+        {
+          "node": "level_main_10-05_beg",
+          "line": 442,
+          "container": "dyn/gamedata/story/obt/main/level_main_10-05_beg.txt",
+          "source_sha256": "1f324b01a242d59a26881ecfaf5afd1d525c1e0fd4933de754bb72dfa5fdf3af"
+        },
+        {
+          "node": "level_main_10-07_end",
+          "line": 114,
+          "container": "dyn/gamedata/story/obt/main/level_main_10-07_end.txt",
+          "source_sha256": "eac002749e08bb8cc4a3fb6c89045d3f0f727c3740834240ed356129ef941ce5"
+        },
+        {
+          "node": "level_main_11-07_end",
+          "line": 124,
+          "container": "dyn/gamedata/story/obt/main/level_main_11-07_end.txt",
+          "source_sha256": "ad1507e072b56743b39ab5805f5799dfaa1a74a1b2fccde162d14f7193e845b1"
+        },
+        {
+          "node": "level_main_12-11_end",
+          "line": 8,
+          "container": "dyn/gamedata/story/obt/main/level_main_12-11_end.txt",
+          "source_sha256": "e5072593501edf9be87004ee5c897853b52de0de8e5c2aa841aa8c1f315ec3a3"
+        },
+        {
+          "node": "level_main_13-02_beg",
+          "line": 203,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "source_sha256": "82d4f758789e3b9a119c81b9b52e6dfbbcd2111bca6f21ea32ee9260e00bd274"
+        },
+        {
+          "node": "level_main_13-02_beg",
+          "line": 1022,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-02_beg.txt",
+          "source_sha256": "82d4f758789e3b9a119c81b9b52e6dfbbcd2111bca6f21ea32ee9260e00bd274"
+        },
+        {
+          "node": "level_main_13-02_end",
+          "line": 21,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-02_end.txt",
+          "source_sha256": "ccd3e8a3cc038fbada4d0de61096a4e12976a7e4ef215238b4fa6d3b9841abc5"
+        },
+        {
+          "node": "level_main_13-02_end",
+          "line": 416,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-02_end.txt",
+          "source_sha256": "ccd3e8a3cc038fbada4d0de61096a4e12976a7e4ef215238b4fa6d3b9841abc5"
+        },
+        {
+          "node": "level_main_13-04_end",
+          "line": 104,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-04_end.txt",
+          "source_sha256": "32df0da0f6e528de19262913e4e7f6fc7a3d5e46329040e4d642fbac70430ed4"
+        },
+        {
+          "node": "level_main_17-08_beg",
+          "line": 709,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-08_beg.txt",
+          "source_sha256": "c27902eabf376322348affcfb13360a061be5bc2d6608da14b81fa62e10bdabe"
+        },
+        {
+          "node": "level_main_17-09_end",
+          "line": 5,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-09_end.txt",
+          "source_sha256": "1bc21e72cb44e59812911e8f882055c4a5c20f19457099a9121cefd6c8ec9655"
+        },
+        {
+          "node": "level_main_17-09_end",
+          "line": 130,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-09_end.txt",
+          "source_sha256": "1bc21e72cb44e59812911e8f882055c4a5c20f19457099a9121cefd6c8ec9655"
+        },
+        {
+          "node": "level_main_17-11_end",
+          "line": 885,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-11_end.txt",
+          "source_sha256": "e3573600441662cd58fe6fbead7cf96cf3defd7f4a1129f6d88ab6aa7b8aafce"
+        },
+        {
+          "node": "level_st_08-05",
+          "line": 188,
+          "container": "dyn/gamedata/story/obt/main/level_st_08-05.txt",
+          "source_sha256": "c432270306e1dea4cd3163082ad59532c63e85bdafd214e4eafe6d3b92699de3"
+        },
+        {
+          "node": "story_aosta_1_1",
+          "line": 110,
+          "container": "dyn/gamedata/story/obt/memory/story_aosta_1_1.txt",
+          "source_sha256": "87e04db94b8892deb467a0fe232135ba6a1efe1d9bafb0d290409527331e6945"
+        },
+        {
+          "node": "story_aosta_1_1",
+          "line": 248,
+          "container": "dyn/gamedata/story/obt/memory/story_aosta_1_1.txt",
+          "source_sha256": "87e04db94b8892deb467a0fe232135ba6a1efe1d9bafb0d290409527331e6945"
+        },
+        {
+          "node": "story_aosta_1_1",
+          "line": 336,
+          "container": "dyn/gamedata/story/obt/memory/story_aosta_1_1.txt",
+          "source_sha256": "87e04db94b8892deb467a0fe232135ba6a1efe1d9bafb0d290409527331e6945"
+        },
+        {
+          "node": "story_bobb_1_1",
+          "line": 128,
+          "container": "dyn/gamedata/story/obt/memory/story_bobb_1_1.txt",
+          "source_sha256": "2609bbba184eeb99bba1f6de8989768c3ce249139e7e3511c0b3bac290041344"
+        },
+        {
+          "node": "story_brownb_1_1",
+          "line": 154,
+          "container": "dyn/gamedata/story/obt/memory/story_brownb_1_1.txt",
+          "source_sha256": "cfbf230466703a3ea7b18836ca075b674b57fe4e7aa8abb2b514ea9f105b52ba"
+        },
+        {
+          "node": "story_bstalk_1_1",
+          "line": 378,
+          "container": "dyn/gamedata/story/obt/memory/story_bstalk_1_1.txt",
+          "source_sha256": "916b9986b6511684295ec645220e814198c427434fa6f9d6d0b7645e6f44e237"
+        },
+        {
+          "node": "story_cammou_1_1",
+          "line": 262,
+          "container": "dyn/gamedata/story/obt/memory/story_cammou_1_1.txt",
+          "source_sha256": "7863602a728f4cc919edc49178d3f589c8eb9e557f460bed9a54eeec17b4d9e2"
+        },
+        {
+          "node": "story_chen_1_1",
+          "line": 569,
+          "container": "dyn/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "source_sha256": "ff02a3425c112d6cfedd7c280d9a5dbff2f03c61859e3d30614dd5c61c3df62c"
+        },
+        {
+          "node": "story_chen_1_1",
+          "line": 664,
+          "container": "dyn/gamedata/story/obt/memory/story_chen_1_1.txt",
+          "source_sha256": "ff02a3425c112d6cfedd7c280d9a5dbff2f03c61859e3d30614dd5c61c3df62c"
+        },
+        {
+          "node": "story_elysm_1_1",
+          "line": 164,
+          "container": "dyn/gamedata/story/obt/memory/story_elysm_1_1.txt",
+          "source_sha256": "008f2598d3ea56f65cb6aed4fc43d94db66c673f6907987e440828f18c424dc5"
+        },
+        {
+          "node": "story_elysm_1_1",
+          "line": 283,
+          "container": "dyn/gamedata/story/obt/memory/story_elysm_1_1.txt",
+          "source_sha256": "008f2598d3ea56f65cb6aed4fc43d94db66c673f6907987e440828f18c424dc5"
+        },
+        {
+          "node": "story_f12yin_1_1",
+          "line": 449,
+          "container": "dyn/gamedata/story/obt/memory/story_f12yin_1_1.txt",
+          "source_sha256": "179509381e0895d48c0d3f2585328993ce5f04d40e82923a01a79877260496ed"
+        },
+        {
+          "node": "story_hamoni_1_1",
+          "line": 220,
+          "container": "dyn/gamedata/story/obt/memory/story_hamoni_1_1.txt",
+          "source_sha256": "3a46fa72cd376f0888ad36ebbfef57e48d60cabb47bb751bfdac09455ccc9477"
+        },
+        {
+          "node": "story_humus_1_1",
+          "line": 427,
+          "container": "dyn/gamedata/story/obt/memory/story_humus_1_1.txt",
+          "source_sha256": "43586d76158af1007d103cac1cc2062fcde363ae27f43d56417afd133f13dac2"
+        },
+        {
+          "node": "story_jesica_1_1",
+          "line": 13,
+          "container": "dyn/gamedata/story/obt/memory/story_jesica_1_1.txt",
+          "source_sha256": "e6a61454b4a7d2de5f71cb69da4a67b07f152e44d813784a13335b28272e078f"
+        },
+        {
+          "node": "story_melnte_1_1",
+          "line": 513,
+          "container": "dyn/gamedata/story/obt/memory/story_melnte_1_1.txt",
+          "source_sha256": "d33e083b981841dc0d73c925702b398740db0dd7c7d3a2065f60c51292d37f9e"
+        },
+        {
+          "node": "story_mizuki_1_1",
+          "line": 110,
+          "container": "dyn/gamedata/story/obt/memory/story_mizuki_1_1.txt",
+          "source_sha256": "2e0164327e8746d3ae44330a728573a23dd8f6d91274c5bf3cd11330c9bee545"
+        },
+        {
+          "node": "story_mizuki_1_1",
+          "line": 119,
+          "container": "dyn/gamedata/story/obt/memory/story_mizuki_1_1.txt",
+          "source_sha256": "2e0164327e8746d3ae44330a728573a23dd8f6d91274c5bf3cd11330c9bee545"
+        },
+        {
+          "node": "story_mizuki_1_1",
+          "line": 208,
+          "container": "dyn/gamedata/story/obt/memory/story_mizuki_1_1.txt",
+          "source_sha256": "2e0164327e8746d3ae44330a728573a23dd8f6d91274c5bf3cd11330c9bee545"
+        },
+        {
+          "node": "story_mizuki_1_1",
+          "line": 320,
+          "container": "dyn/gamedata/story/obt/memory/story_mizuki_1_1.txt",
+          "source_sha256": "2e0164327e8746d3ae44330a728573a23dd8f6d91274c5bf3cd11330c9bee545"
+        },
+        {
+          "node": "story_mizuki_1_1",
+          "line": 400,
+          "container": "dyn/gamedata/story/obt/memory/story_mizuki_1_1.txt",
+          "source_sha256": "2e0164327e8746d3ae44330a728573a23dd8f6d91274c5bf3cd11330c9bee545"
+        },
+        {
+          "node": "story_moeshd_1_1",
+          "line": 6,
+          "container": "dyn/gamedata/story/obt/memory/story_moeshd_1_1.txt",
+          "source_sha256": "217f62c3d9ffc101f4006c0e720747ab775fe45e74114eedca650dde8ff8c939"
+        },
+        {
+          "node": "story_moeshd_1_1",
+          "line": 364,
+          "container": "dyn/gamedata/story/obt/memory/story_moeshd_1_1.txt",
+          "source_sha256": "217f62c3d9ffc101f4006c0e720747ab775fe45e74114eedca650dde8ff8c939"
+        },
+        {
+          "node": "story_morgan_1_1",
+          "line": 32,
+          "container": "dyn/gamedata/story/obt/memory/story_morgan_1_1.txt",
+          "source_sha256": "91bec313a4814d610d882cc186633e4ba0b7136fce1dee6385802bca8b6957f8"
+        },
+        {
+          "node": "story_orchid_1_1",
+          "line": 259,
+          "container": "dyn/gamedata/story/obt/memory/story_orchid_1_1.txt",
+          "source_sha256": "47542cf45694e755c5ad91ac171af214bfdbc00e208b2840d9974ef61bbcbf10"
+        },
+        {
+          "node": "story_phatom_1_1",
+          "line": 12,
+          "container": "dyn/gamedata/story/obt/memory/story_phatom_1_1.txt",
+          "source_sha256": "f9e0d6e03e5b70cee498cd7921e03b897e9860ac7979eaaa30dd5bbb78b21240"
+        },
+        {
+          "node": "story_quartz_1_1",
+          "line": 566,
+          "container": "dyn/gamedata/story/obt/memory/story_quartz_1_1.txt",
+          "source_sha256": "d29c9eea9a38e598e785bd569b23f89b4dcaaa8047e52ab9c1e6c780879bf94e"
+        },
+        {
+          "node": "story_quartz_1_1",
+          "line": 786,
+          "container": "dyn/gamedata/story/obt/memory/story_quartz_1_1.txt",
+          "source_sha256": "d29c9eea9a38e598e785bd569b23f89b4dcaaa8047e52ab9c1e6c780879bf94e"
+        },
+        {
+          "node": "story_quercu_1_1",
+          "line": 726,
+          "container": "dyn/gamedata/story/obt/memory/story_quercu_1_1.txt",
+          "source_sha256": "9c16a57e398e00d585cc49473c34105f9168a260dddc1430812c202fbe85ba4a"
+        },
+        {
+          "node": "story_quercu_1_1",
+          "line": 839,
+          "container": "dyn/gamedata/story/obt/memory/story_quercu_1_1.txt",
+          "source_sha256": "9c16a57e398e00d585cc49473c34105f9168a260dddc1430812c202fbe85ba4a"
+        },
+        {
+          "node": "story_sddrag_1_1",
+          "line": 595,
+          "container": "dyn/gamedata/story/obt/memory/story_sddrag_1_1.txt",
+          "source_sha256": "d4f095476091767006f59e63ad22b5cce8ef96d23de89136924c724fd8439780"
+        },
+        {
+          "node": "story_sddrag_1_1",
+          "line": 698,
+          "container": "dyn/gamedata/story/obt/memory/story_sddrag_1_1.txt",
+          "source_sha256": "d4f095476091767006f59e63ad22b5cce8ef96d23de89136924c724fd8439780"
+        },
+        {
+          "node": "story_skfire_1_1",
+          "line": 168,
+          "container": "dyn/gamedata/story/obt/memory/story_skfire_1_1.txt",
+          "source_sha256": "afecf72fbc66e755a17997a4cb43c080ab3629487a22aa25ab2f50c97540d44e"
+        },
+        {
+          "node": "story_skfire_1_1",
+          "line": 279,
+          "container": "dyn/gamedata/story/obt/memory/story_skfire_1_1.txt",
+          "source_sha256": "afecf72fbc66e755a17997a4cb43c080ab3629487a22aa25ab2f50c97540d44e"
+        },
+        {
+          "node": "story_skfire_1_1",
+          "line": 343,
+          "container": "dyn/gamedata/story/obt/memory/story_skfire_1_1.txt",
+          "source_sha256": "afecf72fbc66e755a17997a4cb43c080ab3629487a22aa25ab2f50c97540d44e"
+        },
+        {
+          "node": "story_skfire_1_1",
+          "line": 447,
+          "container": "dyn/gamedata/story/obt/memory/story_skfire_1_1.txt",
+          "source_sha256": "afecf72fbc66e755a17997a4cb43c080ab3629487a22aa25ab2f50c97540d44e"
+        },
+        {
+          "node": "story_strong_1_1",
+          "line": 230,
+          "container": "dyn/gamedata/story/obt/memory/story_strong_1_1.txt",
+          "source_sha256": "0ce7bbe86e79595dbd55deef16e0d1c766b77f60bb61f38b55aa2892d1b803f3"
+        },
+        {
+          "node": "story_susuro_1_1",
+          "line": 560,
+          "container": "dyn/gamedata/story/obt/memory/story_susuro_1_1.txt",
+          "source_sha256": "f35657b6b211655fbc33550c53e29ab72a6bcad83cb26e19d48323089d1e9671"
+        },
+        {
+          "node": "story_swire_1_1",
+          "line": 136,
+          "container": "dyn/gamedata/story/obt/memory/story_swire_1_1.txt",
+          "source_sha256": "7de86618b576b2afde965929772e03311784b16ba09329aa0327e31855386ba8"
+        },
+        {
+          "node": "story_tachak_1_1",
+          "line": 20,
+          "container": "dyn/gamedata/story/obt/memory/story_tachak_1_1.txt",
+          "source_sha256": "4c1e2318d774bb6277678a24333a7c19f12744335df4bdfbdbbb275fb8831a99"
+        },
+        {
+          "node": "story_texas_1_1",
+          "line": 430,
+          "container": "dyn/gamedata/story/obt/memory/story_texas_1_1.txt",
+          "source_sha256": "2e9611971e0fbfc981f099c9b25e9252eba3de16dd342c802c2a57c4ef138efc"
+        },
+        {
+          "node": "story_utage_1_1",
+          "line": 410,
+          "container": "dyn/gamedata/story/obt/memory/story_utage_1_1.txt",
+          "source_sha256": "ebc01621668c3db939852c52505043d52414cc55a6ef03f8175be52f59cb6382"
+        },
+        {
+          "node": "story_zebra_1_1",
+          "line": 400,
+          "container": "dyn/gamedata/story/obt/memory/story_zebra_1_1.txt",
+          "source_sha256": "65e807d59b166a6caa9686d95c17dce7ecd46c142ac5b411327a4bcc56b1b7c7"
+        }
+      ],
+      "representative_source": {
+        "node": "level_st_09-01",
+        "container": "dyn/gamedata/story/obt/main/level_st_09-01.txt",
+        "bundle": "0ad8d76b77bf86c20cafec7915d555de.bin",
+        "source_sha256": "2173760cc79011da602ba67b715e69dc183791bdf6dbafc7c7d74e9d5acf7c56",
+        "line": 16,
+        "context": [
+          {
+            "line": 14
+          },
+          {
+            "line": 15
+          },
+          {
+            "line": 16
+          },
+          {
+            "line": 17
+          },
+          {
+            "line": 18
+          },
+          {
+            "line": 19
+          },
+          {
+            "line": 20
+          },
+          {
+            "line": 21
+          },
+          {
+            "line": 22
+          },
+          {
+            "line": 23
+          },
+          {
+            "line": 24
+          }
+        ]
+      },
+      "source_scope": "本地原作PNG；引用节点为已索引剧情中的使用位置，不宣称最早发表出处",
+      "export_status": "exported",
+      "visual_status": "checked_original_png",
+      "usable": true,
+      "eligible_for_model_selection": true,
+      "realm": "canon_asset",
+      "description_realm": "visual_observation",
+      "suggested_use_realm": "reference_for_user_fiction",
+      "problems": [],
+      "originalFile": "images/backgrounds/bg_warehouse.png"
+    },
+    {
+      "id": "34_g1_victoriavillage",
+      "type": "background",
+      "name": null,
+      "display_label": "郊外建筑候选：维多利亚风格村庄",
+      "official_place_name": null,
+      "description": "坡屋顶低层建筑、烟囱、乡间道路、草垛、木栅栏、电线杆；天空阴云。",
+      "interior": false,
+      "time_of_day": "白昼",
+      "lighting": "阴天漫射光",
+      "suitable_scenes": "乡村入口、城郊住宅附近、农用地块周边道路",
+      "limits": "未确认画面中的某栋建筑是仓库，也未确认村庄正式名称。",
+      "same_location_group": null,
+      "state_variant": null,
+      "file": "assets/supplement-20261106/backgrounds/34_g1_victoriavillage.png",
+      "size": [
+        1024,
+        576
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "cb1d4c04a2b924e6795b1997c2c47fa28a38270b43c9f71ee46e30fc73bc1656",
+      "source": {
+        "container": "dyn/avg/backgrounds/34_g1_victoriavillage.png",
+        "bundle": "avg_bkg_h1_34_0.ab",
+        "type": "Sprite",
+        "sha256": "6bbfbd5c30d07c9c6838277aab5200906f886796a77c055e1abff23cf17656f0"
+      },
+      "uses": [
+        {
+          "node": "level_st_13-01",
+          "line": 293,
+          "container": "dyn/gamedata/story/obt/main/level_st_13-01.txt",
+          "source_sha256": "f06e06574bb2165a7216b0e55e014ebac5091f0b3638fd50c04c195999d998e1"
+        },
+        {
+          "node": "story_lava2_1_1",
+          "line": 180,
+          "container": "dyn/gamedata/story/obt/memory/story_lava2_1_1.txt",
+          "source_sha256": "904ec2536a5a670a2243865edf8f842e16b5b105bc37a47d13537c464e588abe"
+        },
+        {
+          "node": "story_lava2_1_1",
+          "line": 313,
+          "container": "dyn/gamedata/story/obt/memory/story_lava2_1_1.txt",
+          "source_sha256": "904ec2536a5a670a2243865edf8f842e16b5b105bc37a47d13537c464e588abe"
+        },
+        {
+          "node": "story_lava2_1_1",
+          "line": 377,
+          "container": "dyn/gamedata/story/obt/memory/story_lava2_1_1.txt",
+          "source_sha256": "904ec2536a5a670a2243865edf8f842e16b5b105bc37a47d13537c464e588abe"
+        },
+        {
+          "node": "story_lava2_1_1",
+          "line": 390,
+          "container": "dyn/gamedata/story/obt/memory/story_lava2_1_1.txt",
+          "source_sha256": "904ec2536a5a670a2243865edf8f842e16b5b105bc37a47d13537c464e588abe"
+        },
+        {
+          "node": "story_shining_1_1",
+          "line": 408,
+          "container": "dyn/gamedata/story/obt/memory/story_shining_1_1.txt",
+          "source_sha256": "e85675766716192fc2490c4164ff97af0f203af6a058a64aca306b127c8b96eb"
+        },
+        {
+          "node": "story_vrdant_1_1",
+          "line": 520,
+          "container": "dyn/gamedata/story/obt/memory/story_vrdant_1_1.txt",
+          "source_sha256": "803c81e1472ff7014dc59c32df75c993b8ca09fc4b0b3b66b56d43ae295a335e"
+        },
+        {
+          "node": "story_vrdant_1_1",
+          "line": 751,
+          "container": "dyn/gamedata/story/obt/memory/story_vrdant_1_1.txt",
+          "source_sha256": "803c81e1472ff7014dc59c32df75c993b8ca09fc4b0b3b66b56d43ae295a335e"
+        },
+        {
+          "node": "story_xingzh_1_1",
+          "line": 640,
+          "container": "dyn/gamedata/story/obt/memory/story_xingzh_1_1.txt",
+          "source_sha256": "7ee1c0f987dbd224a039c1a49ccee8d11a017d86e65ec0c4c9fae06a72a0c798"
+        }
+      ],
+      "representative_source": {
+        "node": "level_st_13-01",
+        "container": "dyn/gamedata/story/obt/main/level_st_13-01.txt",
+        "bundle": "0ad8d76b77bf86c20cafec7915d555de.bin",
+        "source_sha256": "f06e06574bb2165a7216b0e55e014ebac5091f0b3638fd50c04c195999d998e1",
+        "line": 293,
+        "context": [
+          {
+            "line": 291
+          },
+          {
+            "line": 292
+          },
+          {
+            "line": 293
+          },
+          {
+            "line": 294
+          },
+          {
+            "line": 295
+          },
+          {
+            "line": 296
+          },
+          {
+            "line": 297
+          },
+          {
+            "line": 298
+          },
+          {
+            "line": 299
+          },
+          {
+            "line": 300
+          },
+          {
+            "line": 301
+          }
+        ]
+      },
+      "source_scope": "本地原作PNG；引用节点为已索引剧情中的使用位置，不宣称最早发表出处",
+      "export_status": "exported",
+      "visual_status": "checked_original_png",
+      "usable": true,
+      "eligible_for_model_selection": true,
+      "realm": "canon_asset",
+      "description_realm": "visual_observation",
+      "suggested_use_realm": "reference_for_user_fiction",
+      "problems": [],
+      "originalFile": "images/backgrounds/34_g1_victoriavillage.png"
+    },
+    {
+      "id": "bg_forest",
+      "type": "background",
+      "name": null,
+      "display_label": "树林候选",
+      "official_place_name": null,
+      "description": "粗树干、林下灌木和草地；树林深处有明亮光束，整体绿与青灰色。",
+      "interior": false,
+      "time_of_day": "白昼",
+      "lighting": "穿林自然光，局部明暗斑驳",
+      "suitable_scenes": "林中交谈、林缘巡查、林下行路、短暂停留",
+      "limits": "没有足够依据指定树种或正式林地名。",
+      "same_location_group": null,
+      "state_variant": null,
+      "file": "assets/supplement-20261106/backgrounds/bg_forest.png",
+      "size": [
+        1024,
+        576
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "a2ac58ad8e3e9fb10f4a6df6b71d29e1ffe9261c8166e2d4741e2613ade3ec51",
+      "source": {
+        "container": "dyn/avg/backgrounds/bg_forest.png",
+        "bundle": "avg_bkg_h1_bg_fo_0.ab",
+        "type": "Sprite",
+        "sha256": "49fe91d5516fe35093226d518f25f2f4bfd427813194cf7ff9b7a1021112809f"
+      },
+      "uses": [
+        {
+          "node": "level_main_13-01_end",
+          "line": 463,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-01_end.txt",
+          "source_sha256": "ea9351f2a7d59490554605a2b133b5d0a9a9077425765713acfe249c9f4e67f2"
+        },
+        {
+          "node": "level_main_13-01_end",
+          "line": 516,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-01_end.txt",
+          "source_sha256": "ea9351f2a7d59490554605a2b133b5d0a9a9077425765713acfe249c9f4e67f2"
+        },
+        {
+          "node": "level_main_13-07_end",
+          "line": 718,
+          "container": "dyn/gamedata/story/obt/main/level_main_13-07_end.txt",
+          "source_sha256": "7ee3df23b84664818fd222b4fc806ec0af00e8b859bbf1e728eb210abe385b35"
+        },
+        {
+          "node": "level_main_17-03_end",
+          "line": 94,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-03_end.txt",
+          "source_sha256": "b9f120f32810c0397e22cfb72021d908a8125c2cf74a2ac4ca8145477668a46e"
+        },
+        {
+          "node": "level_main_17-03_end",
+          "line": 113,
+          "container": "dyn/gamedata/story/obt/main/level_main_17-03_end.txt",
+          "source_sha256": "b9f120f32810c0397e22cfb72021d908a8125c2cf74a2ac4ca8145477668a46e"
+        },
+        {
+          "node": "level_st_13-02",
+          "line": 804,
+          "container": "dyn/gamedata/story/obt/main/level_st_13-02.txt",
+          "source_sha256": "702d5ff184a6a55019409e0f7f8525852145337104193dd90a5411a784dd804c"
+        },
+        {
+          "node": "level_st_13-03",
+          "line": 1165,
+          "container": "dyn/gamedata/story/obt/main/level_st_13-03.txt",
+          "source_sha256": "67c57087397bc802390ff3627cf97cdc9ae2687481c2358f5321e214731eefb1"
+        },
+        {
+          "node": "story_aprl_1_1",
+          "line": 68,
+          "container": "dyn/gamedata/story/obt/memory/story_aprl_1_1.txt",
+          "source_sha256": "e255a619124d4fcdcaaf954cff8d7cc798cab3da9f4baa2e8b190b1a9912c21b"
+        },
+        {
+          "node": "story_aprl_1_1",
+          "line": 209,
+          "container": "dyn/gamedata/story/obt/memory/story_aprl_1_1.txt",
+          "source_sha256": "e255a619124d4fcdcaaf954cff8d7cc798cab3da9f4baa2e8b190b1a9912c21b"
+        },
+        {
+          "node": "story_aprl_1_1",
+          "line": 294,
+          "container": "dyn/gamedata/story/obt/memory/story_aprl_1_1.txt",
+          "source_sha256": "e255a619124d4fcdcaaf954cff8d7cc798cab3da9f4baa2e8b190b1a9912c21b"
+        },
+        {
+          "node": "story_aprl_1_1",
+          "line": 356,
+          "container": "dyn/gamedata/story/obt/memory/story_aprl_1_1.txt",
+          "source_sha256": "e255a619124d4fcdcaaf954cff8d7cc798cab3da9f4baa2e8b190b1a9912c21b"
+        },
+        {
+          "node": "story_blemsh_1_1",
+          "line": 154,
+          "container": "dyn/gamedata/story/obt/memory/story_blemsh_1_1.txt",
+          "source_sha256": "4cde080e5d3c0607c4ca9298533795a739d1608edae64a7ad34b3012006e809e"
+        },
+        {
+          "node": "story_blemsh_1_1",
+          "line": 292,
+          "container": "dyn/gamedata/story/obt/memory/story_blemsh_1_1.txt",
+          "source_sha256": "4cde080e5d3c0607c4ca9298533795a739d1608edae64a7ad34b3012006e809e"
+        },
+        {
+          "node": "story_blemsh_1_1",
+          "line": 371,
+          "container": "dyn/gamedata/story/obt/memory/story_blemsh_1_1.txt",
+          "source_sha256": "4cde080e5d3c0607c4ca9298533795a739d1608edae64a7ad34b3012006e809e"
+        },
+        {
+          "node": "story_blemsh_1_1",
+          "line": 1104,
+          "container": "dyn/gamedata/story/obt/memory/story_blemsh_1_1.txt",
+          "source_sha256": "4cde080e5d3c0607c4ca9298533795a739d1608edae64a7ad34b3012006e809e"
+        },
+        {
+          "node": "story_blkngt_1_1",
+          "line": 228,
+          "container": "dyn/gamedata/story/obt/memory/story_blkngt_1_1.txt",
+          "source_sha256": "b65f939dd29340119c8223aba3a45817dbc4f0c60afa4669a6ee41814caf2024"
+        },
+        {
+          "node": "story_breeze_2_1",
+          "line": 125,
+          "container": "dyn/gamedata/story/obt/memory/story_breeze_2_1.txt",
+          "source_sha256": "c753c6947172466703e0b6b2aa00602efe477352d46480b0dcb3468f7ef18e35"
+        },
+        {
+          "node": "story_broca_1_1",
+          "line": 38,
+          "container": "dyn/gamedata/story/obt/memory/story_broca_1_1.txt",
+          "source_sha256": "cbecc27df40731de946d6270587de82978d0546d03d25055adb0a7c2578200d0"
+        },
+        {
+          "node": "story_broca_1_1",
+          "line": 42,
+          "container": "dyn/gamedata/story/obt/memory/story_broca_1_1.txt",
+          "source_sha256": "cbecc27df40731de946d6270587de82978d0546d03d25055adb0a7c2578200d0"
+        },
+        {
+          "node": "story_broca_1_1",
+          "line": 135,
+          "container": "dyn/gamedata/story/obt/memory/story_broca_1_1.txt",
+          "source_sha256": "cbecc27df40731de946d6270587de82978d0546d03d25055adb0a7c2578200d0"
+        },
+        {
+          "node": "story_broca_1_1",
+          "line": 156,
+          "container": "dyn/gamedata/story/obt/memory/story_broca_1_1.txt",
+          "source_sha256": "cbecc27df40731de946d6270587de82978d0546d03d25055adb0a7c2578200d0"
+        },
+        {
+          "node": "story_catap_1_1",
+          "line": 348,
+          "container": "dyn/gamedata/story/obt/memory/story_catap_1_1.txt",
+          "source_sha256": "5bd34441cb56a934841f780206eb70852a5a02cde40efc0ac777a578dbc33e13"
+        },
+        {
+          "node": "story_deepcl_2_1",
+          "line": 296,
+          "container": "dyn/gamedata/story/obt/memory/story_deepcl_2_1.txt",
+          "source_sha256": "3ed8ae27a8b02f214e610663146e31dd79fba3a790e38bd6cb7b5bca38cdb04f"
+        },
+        {
+          "node": "story_deepcl_2_1",
+          "line": 329,
+          "container": "dyn/gamedata/story/obt/memory/story_deepcl_2_1.txt",
+          "source_sha256": "3ed8ae27a8b02f214e610663146e31dd79fba3a790e38bd6cb7b5bca38cdb04f"
+        },
+        {
+          "node": "story_deepcl_2_1",
+          "line": 434,
+          "container": "dyn/gamedata/story/obt/memory/story_deepcl_2_1.txt",
+          "source_sha256": "3ed8ae27a8b02f214e610663146e31dd79fba3a790e38bd6cb7b5bca38cdb04f"
+        },
+        {
+          "node": "story_deepcl_2_1",
+          "line": 466,
+          "container": "dyn/gamedata/story/obt/memory/story_deepcl_2_1.txt",
+          "source_sha256": "3ed8ae27a8b02f214e610663146e31dd79fba3a790e38bd6cb7b5bca38cdb04f"
+        },
+        {
+          "node": "story_estell_1_1",
+          "line": 193,
+          "container": "dyn/gamedata/story/obt/memory/story_estell_1_1.txt",
+          "source_sha256": "0b4be80455027f772aaa37c8963ee2cf43ef27614dff222fab29de1fa787e0f2"
+        },
+        {
+          "node": "story_flower_2_1",
+          "line": 204,
+          "container": "dyn/gamedata/story/obt/memory/story_flower_2_1.txt",
+          "source_sha256": "4a90a293d1778433e7923f6a1116129c3cdac4d53f5f086a4b09d4dd162b76e5"
+        },
+        {
+          "node": "story_flower_2_1",
+          "line": 253,
+          "container": "dyn/gamedata/story/obt/memory/story_flower_2_1.txt",
+          "source_sha256": "4a90a293d1778433e7923f6a1116129c3cdac4d53f5f086a4b09d4dd162b76e5"
+        },
+        {
+          "node": "story_flower_2_1",
+          "line": 421,
+          "container": "dyn/gamedata/story/obt/memory/story_flower_2_1.txt",
+          "source_sha256": "4a90a293d1778433e7923f6a1116129c3cdac4d53f5f086a4b09d4dd162b76e5"
+        },
+        {
+          "node": "story_iris_1_1",
+          "line": 1463,
+          "container": "dyn/gamedata/story/obt/memory/story_iris_1_1.txt",
+          "source_sha256": "f242551d327e8a8b842f25509bd5abe5bfa6a32cc15bf5e6bbfff2f0ca019b2e"
+        },
+        {
+          "node": "story_jesca2_1_1",
+          "line": 5,
+          "container": "dyn/gamedata/story/obt/memory/story_jesca2_1_1.txt",
+          "source_sha256": "35604c552328674f7111387960217c25c4fbcd70ca7f1f9ab0bc14955c8e5efa"
+        },
+        {
+          "node": "story_liskam_1_1",
+          "line": 205,
+          "container": "dyn/gamedata/story/obt/memory/story_liskam_1_1.txt",
+          "source_sha256": "bd41205639536c248ec8935a63bdc3788088f96ed8fb4f80fcbd2ba07e032f85"
+        },
+        {
+          "node": "story_lunacu_1_1",
+          "line": 408,
+          "container": "dyn/gamedata/story/obt/memory/story_lunacu_1_1.txt",
+          "source_sha256": "891d14d75bc3dd04019374c395abb915f6ea3b2b0c5e038eb0ae5b221b4c9a85"
+        },
+        {
+          "node": "story_melnte_1_1",
+          "line": 570,
+          "container": "dyn/gamedata/story/obt/memory/story_melnte_1_1.txt",
+          "source_sha256": "d33e083b981841dc0d73c925702b398740db0dd7c7d3a2065f60c51292d37f9e"
+        },
+        {
+          "node": "story_mint_1_1",
+          "line": 56,
+          "container": "dyn/gamedata/story/obt/memory/story_mint_1_1.txt",
+          "source_sha256": "600f2b68cc3eaa237a54401c7428564e6c266638c0c09bd9ff739a1d093e8393"
+        },
+        {
+          "node": "story_mint_1_1",
+          "line": 464,
+          "container": "dyn/gamedata/story/obt/memory/story_mint_1_1.txt",
+          "source_sha256": "600f2b68cc3eaa237a54401c7428564e6c266638c0c09bd9ff739a1d093e8393"
+        },
+        {
+          "node": "story_mint_1_1",
+          "line": 558,
+          "container": "dyn/gamedata/story/obt/memory/story_mint_1_1.txt",
+          "source_sha256": "600f2b68cc3eaa237a54401c7428564e6c266638c0c09bd9ff739a1d093e8393"
+        },
+        {
+          "node": "story_ncdeer_1_1",
+          "line": 15,
+          "container": "dyn/gamedata/story/obt/memory/story_ncdeer_1_1.txt",
+          "source_sha256": "9d3e6b697091d1199b6c97d4bf2f9f2f2f71d405fa6c50b18bfcb00053503eeb"
+        },
+        {
+          "node": "story_ncdeer_1_1",
+          "line": 37,
+          "container": "dyn/gamedata/story/obt/memory/story_ncdeer_1_1.txt",
+          "source_sha256": "9d3e6b697091d1199b6c97d4bf2f9f2f2f71d405fa6c50b18bfcb00053503eeb"
+        },
+        {
+          "node": "story_ncdeer_1_1",
+          "line": 328,
+          "container": "dyn/gamedata/story/obt/memory/story_ncdeer_1_1.txt",
+          "source_sha256": "9d3e6b697091d1199b6c97d4bf2f9f2f2f71d405fa6c50b18bfcb00053503eeb"
+        },
+        {
+          "node": "story_ncdeer_1_1",
+          "line": 628,
+          "container": "dyn/gamedata/story/obt/memory/story_ncdeer_1_1.txt",
+          "source_sha256": "9d3e6b697091d1199b6c97d4bf2f9f2f2f71d405fa6c50b18bfcb00053503eeb"
+        },
+        {
+          "node": "story_peper_1_1",
+          "line": 60,
+          "container": "dyn/gamedata/story/obt/memory/story_peper_1_1.txt",
+          "source_sha256": "b8c55f6c3745b31419368378f5ca60812d6caa4896ca861026c7c516d8ac5843"
+        },
+        {
+          "node": "story_pinecn_1_1",
+          "line": 134,
+          "container": "dyn/gamedata/story/obt/memory/story_pinecn_1_1.txt",
+          "source_sha256": "f5f3b7b18dfec80d1773e623d3bd15b0fa986bd653c719394bb8e09843781822"
+        },
+        {
+          "node": "story_podego_1_1",
+          "line": 6,
+          "container": "dyn/gamedata/story/obt/memory/story_podego_1_1.txt",
+          "source_sha256": "adcb5bc45a69f18869a2ea30f8a7d0e58b2702aab1467449ed3d3d7f64fa954d"
+        },
+        {
+          "node": "story_podego_1_1",
+          "line": 469,
+          "container": "dyn/gamedata/story/obt/memory/story_podego_1_1.txt",
+          "source_sha256": "adcb5bc45a69f18869a2ea30f8a7d0e58b2702aab1467449ed3d3d7f64fa954d"
+        },
+        {
+          "node": "story_pudd_1_1",
+          "line": 184,
+          "container": "dyn/gamedata/story/obt/memory/story_pudd_1_1.txt",
+          "source_sha256": "e1b6e58a33b4f4e59f889be21c12f813d833bc1461b16f0b568a2c539e64c340"
+        },
+        {
+          "node": "story_quercu_2_1",
+          "line": 202,
+          "container": "dyn/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "source_sha256": "33ab557190f9a7d95618aa76184b950fda7393f8366708b80496f1b3da083899"
+        },
+        {
+          "node": "story_quercu_2_1",
+          "line": 311,
+          "container": "dyn/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "source_sha256": "33ab557190f9a7d95618aa76184b950fda7393f8366708b80496f1b3da083899"
+        },
+        {
+          "node": "story_quercu_2_1",
+          "line": 634,
+          "container": "dyn/gamedata/story/obt/memory/story_quercu_2_1.txt",
+          "source_sha256": "33ab557190f9a7d95618aa76184b950fda7393f8366708b80496f1b3da083899"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 54,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 139,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 166,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 297,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 468,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_reckpr_1_1",
+          "line": 491,
+          "container": "dyn/gamedata/story/obt/memory/story_reckpr_1_1.txt",
+          "source_sha256": "a0313c4f6be9d6d5c62dfa02978f5e0d2fc968d7e6e20641e48509b9d2e79c62"
+        },
+        {
+          "node": "story_rfrost_1_1",
+          "line": 302,
+          "container": "dyn/gamedata/story/obt/memory/story_rfrost_1_1.txt",
+          "source_sha256": "141dd2c557cec7990bc325e824b0edd9b7b901052a474c10767e2186eb2a957a"
+        },
+        {
+          "node": "story_robin_1_1",
+          "line": 5,
+          "container": "dyn/gamedata/story/obt/memory/story_robin_1_1.txt",
+          "source_sha256": "7d4e1407a7f11d572202b97e55e4775b2d42b4359823202d50b67e407f67bcae"
+        },
+        {
+          "node": "story_rope_1_1",
+          "line": 13,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_1.txt",
+          "source_sha256": "bccb8e7ca0caf3fa855df0cde594e043b8736fcc166636e7e0d376e6c52ce3a9"
+        },
+        {
+          "node": "story_rope_1_1",
+          "line": 75,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_1.txt",
+          "source_sha256": "bccb8e7ca0caf3fa855df0cde594e043b8736fcc166636e7e0d376e6c52ce3a9"
+        },
+        {
+          "node": "story_rope_1_1",
+          "line": 102,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_1.txt",
+          "source_sha256": "bccb8e7ca0caf3fa855df0cde594e043b8736fcc166636e7e0d376e6c52ce3a9"
+        },
+        {
+          "node": "story_rope_1_2",
+          "line": 7,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_2.txt",
+          "source_sha256": "d434642d2133ec10e1231be3353df8bacad3327181b255ff194c02196deed113"
+        },
+        {
+          "node": "story_rope_1_2",
+          "line": 127,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_2.txt",
+          "source_sha256": "d434642d2133ec10e1231be3353df8bacad3327181b255ff194c02196deed113"
+        },
+        {
+          "node": "story_rope_1_2",
+          "line": 365,
+          "container": "dyn/gamedata/story/obt/memory/story_rope_1_2.txt",
+          "source_sha256": "d434642d2133ec10e1231be3353df8bacad3327181b255ff194c02196deed113"
+        },
+        {
+          "node": "story_saga_1_1",
+          "line": 194,
+          "container": "dyn/gamedata/story/obt/memory/story_saga_1_1.txt",
+          "source_sha256": "3bdcfc93d3b1275ab5ef90610941592045b1cd535b78a5426e394e108e19c97e"
+        },
+        {
+          "node": "story_shotst_1_1",
+          "line": 428,
+          "container": "dyn/gamedata/story/obt/memory/story_shotst_1_1.txt",
+          "source_sha256": "762bad6dffbe778ce45f3934a29077e2aaedfb8c936739f5ec8827ca82d62303"
+        },
+        {
+          "node": "story_slchan_2_1",
+          "line": 16,
+          "container": "dyn/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "source_sha256": "2f89272e178bb0de5d3aa52a2dff94992411077afdfdfa85f3e834dcdb5382b1"
+        },
+        {
+          "node": "story_slchan_2_1",
+          "line": 36,
+          "container": "dyn/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "source_sha256": "2f89272e178bb0de5d3aa52a2dff94992411077afdfdfa85f3e834dcdb5382b1"
+        },
+        {
+          "node": "story_slchan_2_1",
+          "line": 363,
+          "container": "dyn/gamedata/story/obt/memory/story_slchan_2_1.txt",
+          "source_sha256": "2f89272e178bb0de5d3aa52a2dff94992411077afdfdfa85f3e834dcdb5382b1"
+        },
+        {
+          "node": "story_sleach_1_1",
+          "line": 337,
+          "container": "dyn/gamedata/story/obt/memory/story_sleach_1_1.txt",
+          "source_sha256": "217324197853ec38c687ce537afec2232a059476efa894e67fc2107d92973683"
+        },
+        {
+          "node": "story_sunbr_2_1",
+          "line": 168,
+          "container": "dyn/gamedata/story/obt/memory/story_sunbr_2_1.txt",
+          "source_sha256": "fe8587f3a72e18ebbace25c13101ac5c92ee2d935e1739dd7955c806abd3a000"
+        },
+        {
+          "node": "story_svrash_2_1",
+          "line": 146,
+          "container": "dyn/gamedata/story/obt/memory/story_svrash_2_1.txt",
+          "source_sha256": "7c7bb817807b118d76daf4c6314d4203275a7caf79d60ccb1b5f83a571b0105c"
+        },
+        {
+          "node": "story_tknogi_1_1",
+          "line": 452,
+          "container": "dyn/gamedata/story/obt/memory/story_tknogi_1_1.txt",
+          "source_sha256": "4efac1d063cfd06612c5bf9c1e62781cd08a79c62f36d96e7d51c0b14a8ed0c8"
+        },
+        {
+          "node": "story_waaifu_1_1",
+          "line": 6,
+          "container": "dyn/gamedata/story/obt/memory/story_waaifu_1_1.txt",
+          "source_sha256": "b2300eb89708cc668c3de69118aad55ce8b455ccbddbf8a6df07249fa74bba6b"
+        },
+        {
+          "node": "story_waaifu_1_1",
+          "line": 340,
+          "container": "dyn/gamedata/story/obt/memory/story_waaifu_1_1.txt",
+          "source_sha256": "b2300eb89708cc668c3de69118aad55ce8b455ccbddbf8a6df07249fa74bba6b"
+        },
+        {
+          "node": "story_wang_1_1",
+          "line": 26,
+          "container": "dyn/gamedata/story/obt/memory/story_wang_1_1.txt",
+          "source_sha256": "92c06308224e7dac7b481737a6e2f8506647d7d4f9bd8cf8b54e2ccb0392bd15"
+        },
+        {
+          "node": "story_wscoot_1_1",
+          "line": 491,
+          "container": "dyn/gamedata/story/obt/memory/story_wscoot_1_1.txt",
+          "source_sha256": "266eb1bbe33152f1b7e2d100c55ea9d76b9989e932fa69eb5dc3a334804a1655"
+        },
+        {
+          "node": "story_wulfen_1_1",
+          "line": 9,
+          "container": "dyn/gamedata/story/obt/memory/story_wulfen_1_1.txt",
+          "source_sha256": "f559d15d35fd9231f1d1e39d6e07f4ae37650f44c270ed87c1f348cd9e0d67d5"
+        },
+        {
+          "node": "story_wyvern_1_1",
+          "line": 378,
+          "container": "dyn/gamedata/story/obt/memory/story_wyvern_1_1.txt",
+          "source_sha256": "d8da64df04f575c52ee48d97036df90965dc824dff5d06bdefdf71d0d5e04738"
+        },
+        {
+          "node": "story_wyvern_1_1",
+          "line": 456,
+          "container": "dyn/gamedata/story/obt/memory/story_wyvern_1_1.txt",
+          "source_sha256": "d8da64df04f575c52ee48d97036df90965dc824dff5d06bdefdf71d0d5e04738"
+        },
+        {
+          "node": "story_wyvern_1_1",
+          "line": 576,
+          "container": "dyn/gamedata/story/obt/memory/story_wyvern_1_1.txt",
+          "source_sha256": "d8da64df04f575c52ee48d97036df90965dc824dff5d06bdefdf71d0d5e04738"
+        }
+      ],
+      "representative_source": {
+        "node": "level_main_13-01_end",
+        "container": "dyn/gamedata/story/obt/main/level_main_13-01_end.txt",
+        "bundle": "0ad8d76b77bf86c20cafec7915d555de.bin",
+        "source_sha256": "ea9351f2a7d59490554605a2b133b5d0a9a9077425765713acfe249c9f4e67f2",
+        "line": 463,
+        "context": [
+          {
+            "line": 461
+          },
+          {
+            "line": 462
+          },
+          {
+            "line": 463
+          },
+          {
+            "line": 464
+          },
+          {
+            "line": 465
+          },
+          {
+            "line": 466
+          },
+          {
+            "line": 467
+          },
+          {
+            "line": 468
+          },
+          {
+            "line": 469
+          },
+          {
+            "line": 470
+          },
+          {
+            "line": 471
+          }
+        ]
+      },
+      "source_scope": "本地原作PNG；引用节点为已索引剧情中的使用位置，不宣称最早发表出处",
+      "export_status": "exported",
+      "visual_status": "checked_original_png",
+      "usable": true,
+      "eligible_for_model_selection": true,
+      "realm": "canon_asset",
+      "description_realm": "visual_observation",
+      "suggested_use_realm": "reference_for_user_fiction",
+      "problems": [],
+      "originalFile": "images/backgrounds/bg_forest.png"
+    },
+    {
+      "id": "bg_wilderness_1",
+      "type": "background",
+      "name": null,
+      "display_label": "荒坡／空地候选",
+      "official_place_name": null,
+      "description": "开阔干草地、稀疏灌丛，远处裸露山坡和山脊；浅蓝天空，地面有大片阴影。",
+      "interior": false,
+      "time_of_day": "白昼",
+      "lighting": "自然光，前景局部背阴",
+      "suitable_scenes": "荒坡远景、开阔地、郊外行军或宿营地周边",
+      "limits": "并非已确认的维多利亚地点；地貌偏干燥，不适合湿润密林。",
+      "same_location_group": null,
+      "state_variant": null,
+      "file": "assets/supplement-20261106/backgrounds/bg_wilderness_1.png",
+      "size": [
+        1024,
+        576
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "79db47fba4769aecbf8464379e7f9e54ef5e992041246c4ace4c54e2f8e91066",
+      "source": {
+        "container": "dyn/avg/backgrounds/bg_wilderness_1.png",
+        "bundle": "avg_bkg_h1_bg_wi_0.ab",
+        "type": "Sprite",
+        "sha256": "ef856e79f30d6142034c9d3cfe746917e965b3cf77124f4d570599e63cd4fa59"
+      },
+      "uses": [
+        {
+          "node": "level_st_17-01",
+          "line": 458,
+          "container": "dyn/gamedata/story/obt/main/level_st_17-01.txt",
+          "source_sha256": "d048f90e9368dfed42610d75cb62c3b3b8ac39b4a5eea7190fd8eabea0802d70"
+        },
+        {
+          "node": "level_st_17-04",
+          "line": 6,
+          "container": "dyn/gamedata/story/obt/main/level_st_17-04.txt",
+          "source_sha256": "e9f453592558464263dd2625b9de78b9a4a8166e8104b532f4205fd6d03d6d5a"
+        },
+        {
+          "node": "story_mitm_2_1",
+          "line": 702,
+          "container": "dyn/gamedata/story/obt/memory/story_mitm_2_1.txt",
+          "source_sha256": "916c4b4776d3a26963798b87050366b345142fb2db9630db54900a6b913e07db"
+        },
+        {
+          "node": "story_skybx_1_1",
+          "line": 191,
+          "container": "dyn/gamedata/story/obt/memory/story_skybx_1_1.txt",
+          "source_sha256": "bb83ef742e6348ef0ac8c9a26eb1cdba501bb6dc4f367e9e915b8650ba7a2c4e"
+        }
+      ],
+      "representative_source": {
+        "node": "level_st_17-01",
+        "container": "dyn/gamedata/story/obt/main/level_st_17-01.txt",
+        "bundle": "0ad8d76b77bf86c20cafec7915d555de.bin",
+        "source_sha256": "d048f90e9368dfed42610d75cb62c3b3b8ac39b4a5eea7190fd8eabea0802d70",
+        "line": 458,
+        "context": [
+          {
+            "line": 456
+          },
+          {
+            "line": 457
+          },
+          {
+            "line": 458
+          },
+          {
+            "line": 459
+          },
+          {
+            "line": 460
+          },
+          {
+            "line": 461
+          },
+          {
+            "line": 462
+          },
+          {
+            "line": 463
+          },
+          {
+            "line": 464
+          },
+          {
+            "line": 465
+          },
+          {
+            "line": 466
+          }
+        ]
+      },
+      "source_scope": "本地原作PNG；引用节点为已索引剧情中的使用位置，不宣称最早发表出处",
+      "export_status": "exported",
+      "visual_status": "checked_original_png",
+      "usable": true,
+      "eligible_for_model_selection": true,
+      "realm": "canon_asset",
+      "description_realm": "visual_observation",
+      "suggested_use_realm": "reference_for_user_fiction",
+      "problems": [],
+      "originalFile": "images/backgrounds/bg_wilderness_1.png"
+    },
+    {
+      "id": "zone_map_9_up",
+      "type": "catalog_background",
+      "name": null,
+      "display_label": "第九章目录底图 up",
+      "description": "灰白色城市模型俯视图；街区、广场、建筑和道路；无按钮、节点、奖励或文字。",
+      "file": "assets/supplement-20261106/catalog/zone_map_9_up.png",
+      "size": [
+        1024,
+        684
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "9428badc39d9c49dd25cac716559d54ab7a289038fa6e0f4dc8c00e9199dbda3",
+      "source": {
+        "bundle": "zonemap_2.ab",
+        "sha256": "e819736529404ba831a326f8b96071798ebafd2b30f616bb0dbe5c119c9286b7",
+        "container": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+        "texture_path_id": -3084215124901382700
+      },
+      "uses": [
+        {
+          "prefab": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+          "property": "_backgroundSegments",
+          "index": 0
+        }
+      ],
+      "export_status": "exported",
+      "visual_status": "checked_image",
+      "usable": true,
+      "eligible_for_model_selection": false,
+      "catalog_recommended": true,
+      "composition": {
+        "kind": "independent_flat_texture",
+        "stitch": false
+      },
+      "problems": [],
+      "originalFile": "images/catalog/zone_map_9_up.png"
+    },
+    {
+      "id": "zone_map_9_middle",
+      "type": "catalog_background",
+      "name": null,
+      "display_label": "第九章目录底图 middle",
+      "description": "暖色城市模型俯视图；建筑有破坏痕迹及红黑色尖状物；无界面按钮或节点。",
+      "file": "assets/supplement-20261106/catalog/zone_map_9_middle.png",
+      "size": [
+        1024,
+        684
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "14a82008bd7c9c24e74328aa44e22cc0b02b42b0912e936d05a571094a37d947",
+      "source": {
+        "bundle": "zonemap_2.ab",
+        "sha256": "e819736529404ba831a326f8b96071798ebafd2b30f616bb0dbe5c119c9286b7",
+        "container": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+        "texture_path_id": -4143646969426563000
+      },
+      "uses": [
+        {
+          "prefab": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+          "property": "_backgroundSegments",
+          "index": 1
+        }
+      ],
+      "export_status": "exported",
+      "visual_status": "checked_image",
+      "usable": true,
+      "eligible_for_model_selection": false,
+      "catalog_recommended": false,
+      "composition": {
+        "kind": "independent_flat_texture",
+        "stitch": false
+      },
+      "problems": [],
+      "originalFile": "images/catalog/zone_map_9_middle.png"
+    },
+    {
+      "id": "zone_map_9_down",
+      "type": "catalog_background",
+      "name": null,
+      "display_label": "第九章目录底图 down",
+      "description": "暗背景中的高塔与周边建筑模型；偏暖色照明；无界面按钮或节点。",
+      "file": "assets/supplement-20261106/catalog/zone_map_9_down.png",
+      "size": [
+        1024,
+        684
+      ],
+      "alpha": true,
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "024e84692bc6858c58c965b18c3a2fa0ba6b79d527c8e130196f9c5e6604e5cd",
+      "source": {
+        "bundle": "zonemap_2.ab",
+        "sha256": "e819736529404ba831a326f8b96071798ebafd2b30f616bb0dbe5c119c9286b7",
+        "container": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+        "texture_path_id": -390147288045622800
+      },
+      "uses": [
+        {
+          "prefab": "dyn/ui/zonemaps/zone_map_main_9.prefab",
+          "property": "_backgroundSegments",
+          "index": 2
+        }
+      ],
+      "export_status": "exported",
+      "visual_status": "checked_image",
+      "usable": true,
+      "eligible_for_model_selection": false,
+      "catalog_recommended": false,
+      "composition": {
+        "kind": "independent_flat_texture",
+        "stitch": false
+      },
+      "problems": [],
+      "originalFile": "images/catalog/zone_map_9_down.png"
+    },
+    {
+      "id": "avg_npc_242",
+      "type": "character",
+      "name": null,
+      "aliases": [],
+      "display_label": "通用男性NPC：第九章仓库青年等角色共用",
+      "description": "浅棕色短发、兽耳、深色便帽；白衬衫、深色马甲、颈部深色布条、腰带、深色长裤和长靴；一手插兜、一手垂下；眼部被阴影和简化绘制遮住，不能确认睁闭眼；嘴闭合。",
+      "file": "assets/supplement-20261106/characters/avg_npc_242.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "alpha": true,
+      "alpha_bbox": [
+        370,
+        2,
+        703,
+        1019
+      ],
+      "crop_offset": [
+        0,
+        0
+      ],
+      "sha256": "db4052a7103706c3785cb6c475f8b9c0833d1a7587e34448811abc11e3e6420a",
+      "source": {
+        "bundle": "avg_npc_242.ab",
+        "sha256": "60286523e0bf6cb353e792db2ce1edcfdaaddd08b987a367f33be4a7f278137c",
+        "sprite_name": "avg_npc_242"
+      },
+      "uses": [
+        {
+          "node": "level_st_09-01",
+          "line": 78,
+          "role_label": "慌张的青年",
+          "speaker_line": 81
+        },
+        {
+          "node": "level_main_09-03_beg",
+          "line": 226,
+          "role_label": "愤怒的男性",
+          "speaker_line": 227
+        },
+        {
+          "node": "level_main_09-04_beg",
+          "line": 14,
+          "role_label": "厨子麦克马丁",
+          "speaker_line": 15
+        }
+      ],
+      "composition": {
+        "kind": "base_full_body",
+        "face_position": {
+          "x": -1,
+          "y": -1,
+          "z": 0
+        },
+        "face_size": {
+          "x": 0,
+          "y": 0
+        },
+        "face_overlay": false,
+        "is_whole_body_flag": 0,
+        "origin": "top-left",
+        "alpha_channel": "R of alphaTex",
+        "full_canvas": true,
+        "native_screen_anchor": null,
+        "native_screen_scale": null
+      },
+      "head_bbox": [
+        432,
+        0,
+        590,
+        175
+      ],
+      "head_bbox_format": "[left,top,right,bottom], PNG pixels; origin top-left",
+      "head_bbox_status": "人工看图估计，含帽子、头发和耳朵；不是原生FacePos，不裁切原图",
+      "head_bbox_use": "用于自由舞台比较头部可见尺寸；不是角色设定身高",
+      "export_status": "exported",
+      "visual_status": "checked_gray_composite",
+      "usable": true,
+      "eligible_for_model_selection": false,
+      "identity_binding": "shared_portrait; do not collapse people sharing this image",
+      "problems": [
+        "没有此图专属人物名；不能因共用图片合并人物身份",
+        "仅1张基础整图，没有独立表情或脸部贴图"
+      ],
+      "originalFile": "images/characters/avg_npc_242.png",
+      "automaticIdentityAliases": [],
+      "integration": "registered-inactive",
+      "integrationReason": "共享人物图；不作为玩家或未知人物的自动兜底，本版未开放手选"
+    }
+  ],
+  "counts": {
+    "general_backgrounds": 4,
+    "catalog_backgrounds": 3,
+    "shared_character_images": 1
+  },
+  "identity_audit": "character-audit.json",
+  "unknowns": [
+    "四张通用背景的正式地点名称未确认，name和official_place_name留空",
+    "人物屏幕锚点和精确原生缩放未知",
+    "头部范围是人工估计，不是原生配置"
+  ],
+  "game_and_save_changes": false
+}

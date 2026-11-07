@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "headTopVh": 12.5,
+  "headHeightVh": 21,
+  "headHeightVw": 18,
+  "reference": "avg_npc_229_1#1 at approximately the former 145vh canvas scale",
+  "evidence": "Manually inspected original 1024px PNGs. headTop is the crown/hat centre, headHeight is crown/hat to chin, excluding weapon tips and long ears. FacePos/FaceSize assisted inspection only; these are web composition references, not native screen coordinates. All values are approximate.",
+  "fallback": "Uncalibrated image uses a conservative canvas size; no automatic head recognition is claimed.",
+  "characters": {
+    "avg_npc_229_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        518,
+        16
+      ],
+      "headHeight": 148,
+      "variants": {
+        "3": {
+          "canvas": [
+            1024,
+            1024
+          ],
+          "headTop": [
+            518,
+            16
+          ],
+          "headHeight": 148,
+          "evidence": "Whole-body replacement inspected; head placement matches default."
+        }
+      }
+    },
+    "avg_222_bpipe_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        545,
+        183
+      ],
+      "headHeight": 117
+    },
+    "avg_npc_245_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        526,
+        36
+      ],
+      "headHeight": 141
+    },
+    "char_017_homura_3": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        503,
+        85
+      ],
+      "headHeight": 126
+    },
+    "avg_npc_241": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        485,
+        14
+      ],
+      "headHeight": 132
+    },
+    "avg_npc_238": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        516,
+        10
+      ],
+      "headHeight": 149
+    },
+    "avg_npc_248": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        487,
+        17
+      ],
+      "headHeight": 131
+    },
+    "avg_npc_242": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        511,
+        0
+      ],
+      "headHeight": 175,
+      "headBBox": [
+        432,
+        0,
+        590,
+        175
+      ],
+      "status": "manual-estimate; registered-inactive; not native FacePos"
+    }
+  }
+}

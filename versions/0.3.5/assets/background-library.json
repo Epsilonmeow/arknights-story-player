@@ -1,0 +1,186 @@
+{
+  "schema": 1,
+  "defaultId": "generic-outdoor-street",
+  "policy": "Dedicated background first. Otherwise match the reliable current place, never incidental mentions. Approximate visuals never rename the story location. Deterministic default for unknown places; black is not a generic fallback.",
+  "entries": [
+    {
+      "id": "generic-indoor-corridor",
+      "category": "indoor",
+      "label": "通用室内背景（近似）",
+      "file": "assets/ch09-09-02/21_G1_interrogat_room.png",
+      "originalAssetId": "21_G1_interrogat_room",
+      "originalPlace": "维多利亚小丘郡驻军营地审讯室，走廊",
+      "visibleEnvironment": [
+        "室内",
+        "狭长通道",
+        "铁门",
+        "电线"
+      ],
+      "lighting": "昏暗，冷暖人工光",
+      "matchTerms": [
+        "室内",
+        "仓",
+        "屋内",
+        "房间",
+        "走廊",
+        "厂房",
+        "大厅",
+        "地下",
+        "indoor",
+        "warehouse",
+        "room",
+        "corridor"
+      ],
+      "provenance": "Existing confirmed PNG from resources/ch09-09-02/manifest.json; generic use is approximate, not a warehouse-specific image.",
+      "scenePolicy": {
+        "setting": "indoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；不据此断言图片没有标识。",
+        "locationEvidence": "维多利亚小丘郡驻军营地审讯室，走廊",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [],
+        "usage": "按当前场景地点核对室内外、标识与特殊状态；近似图不改写故事地点。"
+      }
+    },
+    {
+      "id": "generic-outdoor-street",
+      "category": "outdoor",
+      "label": "通用室外背景（近似）",
+      "file": "assets/ch09-09-02/21_G3_victoria_street_d.png",
+      "originalAssetId": "21_G3_victoria_street_d",
+      "originalPlace": "小丘郡街道",
+      "visibleEnvironment": [
+        "室外",
+        "石砌建筑",
+        "道路",
+        "开阔天光"
+      ],
+      "lighting": "灰黄色自然光",
+      "matchTerms": [
+        "室外",
+        "户外",
+        "街",
+        "街道",
+        "outdoor",
+        "street"
+      ],
+      "provenance": "Existing confirmed PNG from resources/ch09-09-02/manifest.json; generic use is approximate, not a woodland/slope-specific image.",
+      "scenePolicy": {
+        "setting": "outdoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；不据此断言图片没有标识。",
+        "locationEvidence": "小丘郡街道",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [
+          "深夜",
+          "夜晚",
+          "夜间",
+          "午夜",
+          "night"
+        ],
+        "usage": "按当前场景地点核对室内外、标识与特殊状态；近似图不改写故事地点。"
+      }
+    },
+    {
+      "id": "bg_warehouse",
+      "category": "indoor",
+      "label": "仓库／货栈室内候选（近似画面）",
+      "file": "assets/supplement-20261106/backgrounds/bg_warehouse.png",
+      "originalAssetId": "bg_warehouse",
+      "originalPlace": null,
+      "visibleEnvironment": "室内成排货架和箱件；中央过道、木质地面；整体较暗，侧窗及远处有少量光。",
+      "matchTerms": [
+        "仓库",
+        "转运仓",
+        "农产仓",
+        "货仓",
+        "warehouse"
+      ],
+      "priority": 10,
+      "provenance": "supplement-20261106/manifest.json 中的 source/uses/sha256；不替换故事实际地点",
+      "scenePolicy": {
+        "setting": "indoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；不据此断言图片没有标识。",
+        "locationEvidence": "官方具体地点未确认；仅按画面作为近似背景。",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [],
+        "usage": "按当前场景地点核对室内外、标识与特殊状态；近似图不改写故事地点。"
+      }
+    },
+    {
+      "id": "34_g1_victoriavillage",
+      "category": "outdoor",
+      "label": "郊外建筑候选：维多利亚风格村庄（近似画面）",
+      "file": "assets/supplement-20261106/backgrounds/34_g1_victoriavillage.png",
+      "originalAssetId": "34_g1_victoriavillage",
+      "originalPlace": null,
+      "visibleEnvironment": "坡屋顶低层建筑、烟囱、乡间道路、草垛、木栅栏、电线杆；天空阴云。",
+      "matchTerms": [
+        "村庄",
+        "乡村",
+        "村落",
+        "乡路",
+        "village"
+      ],
+      "priority": 20,
+      "provenance": "supplement-20261106/manifest.json 中的 source/uses/sha256；不替换故事实际地点",
+      "scenePolicy": {
+        "setting": "outdoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；具体地点未知。",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [],
+        "usage": "仅作不冲突的近似画面，不能改写真实故事地点。"
+      }
+    },
+    {
+      "id": "bg_forest",
+      "category": "outdoor",
+      "label": "树林候选（近似画面）",
+      "file": "assets/supplement-20261106/backgrounds/bg_forest.png",
+      "originalAssetId": "bg_forest",
+      "originalPlace": null,
+      "visibleEnvironment": "粗树干、林下灌木和草地；树林深处有明亮光束，整体绿与青灰色。",
+      "matchTerms": [
+        "树林",
+        "林地",
+        "森林",
+        "树冠",
+        "林中",
+        "forest"
+      ],
+      "priority": 20,
+      "provenance": "supplement-20261106/manifest.json 中的 source/uses/sha256；不替换故事实际地点",
+      "scenePolicy": {
+        "setting": "outdoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；具体地点未知。",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [],
+        "usage": "仅作不冲突的近似画面，不能改写真实故事地点。"
+      }
+    },
+    {
+      "id": "bg_wilderness_1",
+      "category": "outdoor",
+      "label": "荒坡／空地候选（近似画面）",
+      "file": "assets/supplement-20261106/backgrounds/bg_wilderness_1.png",
+      "originalAssetId": "bg_wilderness_1",
+      "originalPlace": null,
+      "visibleEnvironment": "开阔干草地、稀疏灌丛，远处裸露山坡和山脊；浅蓝天空，地面有大片阴影。",
+      "matchTerms": [
+        "荒坡",
+        "荒野",
+        "荒地",
+        "草坡",
+        "山坡",
+        "wilderness"
+      ],
+      "priority": 20,
+      "provenance": "supplement-20261106/manifest.json 中的 source/uses/sha256；不替换故事实际地点",
+      "scenePolicy": {
+        "setting": "outdoor",
+        "visibleMarks": "本次查看未辨认出可确认阵营的标识；具体地点未知。",
+        "requiredPlaceTerms": [],
+        "excludedPlaceTerms": [],
+        "usage": "仅作不冲突的近似画面，不能改写真实故事地点。"
+      }
+    }
+  ]
+}
