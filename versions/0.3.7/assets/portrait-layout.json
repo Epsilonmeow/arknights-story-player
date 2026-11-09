@@ -1,0 +1,363 @@
+{
+  "schema": 1,
+  "headTopVh": 12.5,
+  "headHeightVh": 21,
+  "headHeightVw": 18,
+  "reference": "avg_npc_229_1#1 at approximately the former 145vh canvas scale",
+  "evidence": "Manually inspected original 1024px PNGs. headTop is the crown/hat centre, headHeight is crown/hat to chin, excluding weapon tips and long ears. FacePos/FaceSize assisted inspection only; these are web composition references, not native screen coordinates. All values are approximate.",
+  "fallback": "Uncalibrated image uses a conservative canvas size; no automatic head recognition is claimed.",
+  "characters": {
+    "avg_npc_229_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        518,
+        16
+      ],
+      "headHeight": 148,
+      "variants": {
+        "3": {
+          "canvas": [
+            1024,
+            1024
+          ],
+          "headTop": [
+            518,
+            16
+          ],
+          "headHeight": 148,
+          "evidence": "Whole-body replacement inspected; head placement matches default."
+        }
+      },
+      "face": {
+        "eye": [
+          518,
+          105
+        ],
+        "chinY": 153
+      }
+    },
+    "avg_222_bpipe_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        545,
+        183
+      ],
+      "headHeight": 117,
+      "face": {
+        "eye": [
+          537,
+          262
+        ],
+        "chinY": 300
+      }
+    },
+    "avg_npc_245_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        526,
+        36
+      ],
+      "headHeight": 141,
+      "face": {
+        "eye": [
+          520,
+          130
+        ],
+        "chinY": 176
+      }
+    },
+    "char_017_homura_3": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        503,
+        85
+      ],
+      "headHeight": 126
+    },
+    "avg_npc_241": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        485,
+        14
+      ],
+      "headHeight": 132,
+      "face": {
+        "eye": [
+          476,
+          91
+        ],
+        "chinY": 141
+      }
+    },
+    "avg_npc_238": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        516,
+        10
+      ],
+      "headHeight": 149
+    },
+    "avg_npc_248": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        487,
+        17
+      ],
+      "headHeight": 131
+    },
+    "avg_npc_242": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "headTop": [
+        511,
+        0
+      ],
+      "headHeight": 175,
+      "headBBox": [
+        432,
+        0,
+        590,
+        175
+      ],
+      "status": "manual-estimate; registered-inactive; not native FacePos",
+      "face": {
+        "eye": [
+          517,
+          94
+        ],
+        "chinY": 154,
+        "scale": 1.1,
+        "note": "Eyes under shadow; approximate facial centre. Cap crown y=7."
+      }
+    },
+    "avg_479_sleach_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          539,
+          254
+        ],
+        "chinY": 290
+      }
+    },
+    "avg_npc_089": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          468,
+          145
+        ],
+        "chinY": 200,
+        "scale": 1.15,
+        "note": "Covered face: approximate visor and mask jaw. Scale checked against helmet crown-to-jaw and shoulder size beside Outcast; not an anatomical measurement."
+      }
+    },
+    "avg_npc_244": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          478,
+          66
+        ],
+        "chinY": 130,
+        "scale": 1.45,
+        "note": "Covered face: eye position is estimated beneath the mask. Scale checked against hood crown-to-jaw and shoulder size beside Reed; not an anatomical measurement."
+      }
+    },
+    "char_213_mostma_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          516,
+          155
+        ],
+        "chinY": 205
+      }
+    },
+    "avg_226_weed_1": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          428,
+          225
+        ],
+        "chinY": 260
+      },
+      "variants": {
+        "avg_npc_231:default": {
+          "canvas": [
+            1024,
+            1024
+          ],
+          "face": {
+            "eye": [
+              556,
+              188
+            ],
+            "chinY": 230
+          }
+        }
+      }
+    },
+    "char_013_riop": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          504,
+          139
+        ],
+        "chinY": 193,
+        "scale": 1.1,
+        "note": "Visor and concealed jaw estimated; hood crown y=53, head extent checked without scarf/collar."
+      }
+    },
+    "avg_npc_090": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          485,
+          142
+        ],
+        "chinY": 200,
+        "scale": 1.15,
+        "note": "Visor and mask jaw estimated; helmet crown y=62, head extent checked without scarf/collar."
+      }
+    },
+    "avg_npc_012": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          490,
+          122
+        ],
+        "chinY": 176,
+        "scale": 1.1,
+        "note": "Jaw estimated beneath respirator; hat crown y=38, excluding projecting respirator cartridge."
+      }
+    },
+    "avg_npc_088": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          465,
+          233
+        ],
+        "chinY": 270,
+        "scale": 0.8,
+        "note": "Jaw concealed by high collar; hat crown y=130. Scale uses the whole head as a secondary reference."
+      }
+    },
+    "char_016_medic": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          532,
+          185
+        ],
+        "chinY": 226
+      }
+    },
+    "avg_npc_176": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          506,
+          178
+        ],
+        "chinY": 240,
+        "scale": 1.2,
+        "note": "Eyes obscured by hat shadow; crown y=100. Preserve naturally broad body proportions."
+      }
+    },
+    "avg_npc_243": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          550,
+          116
+        ],
+        "chinY": 169,
+        "note": "Eyes under hat shadow; approximate facial centre. Hat crown y=10."
+      }
+    },
+    "char_1002_nsabr_2": {
+      "canvas": [
+        1024,
+        1024
+      ],
+      "face": {
+        "eye": [
+          523,
+          112
+        ],
+        "chinY": 164,
+        "scale": 1.15,
+        "note": "Mask eye holes and mask jaw; hood crown y=40, excluding collar."
+      }
+    }
+  },
+  "revision": "face-reference-20261108-r3",
+  "eyeLineVh": 29,
+  "faceHeightVh": 6.3,
+  "faceHeightVw": 5.4,
+  "faceEvidence": "Original 1024px PNGs manually reviewed: approximate eye centre and chin, excluding appendages. Covered faces retain their measured reference plus an explicit visual scale adjustment checked against crown-to-jaw and shoulders. Same calibration at all actor counts; no speaking/non-speaking scale change. Not native game anchors or official heights. Unreviewed portraits retain legacy references."
+}

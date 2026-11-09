@@ -1,0 +1,35 @@
+{
+  "version": "0.3.7",
+  "images": [
+    {
+      "file": "assets/mostima/char_213_mostma_1.png",
+      "bytes": 344934,
+      "sha256": "043b379332f65bf29034b8266afbe3ed83e3b9bf9b9050f4ef1a675c7362fbf9"
+    },
+    {
+      "file": "assets/mostima/char_213_mostma_1__2.png",
+      "bytes": 346977,
+      "sha256": "4d20b018dddee6fca99a08e9022f2acf48e34b14c18f94a026d50de1873b960b"
+    },
+    {
+      "file": "assets/mostima/char_213_mostma_1__3.png",
+      "bytes": 346504,
+      "sha256": "0571de93425ff5f416f2d3ef45ff0b41cec9e87941d24961566cb0405ffe7570"
+    },
+    {
+      "file": "assets/mostima/char_213_mostma_1__4.png",
+      "bytes": 346851,
+      "sha256": "1b976a1a5e91f6b14814848706fc261bb4d11d152d468b737170aeb1c19f13e1"
+    },
+    {
+      "file": "assets/mostima/char_213_mostma_1__5.png",
+      "bytes": 346512,
+      "sha256": "ddf92ac536defc7ae5afbf8b7b6cefd25ce41a91698bb461e2ee97de8105e57c"
+    },
+    {
+      "file": "assets/mostima/char_213_mostma_1__6.png",
+      "bytes": 249657,
+      "sha256": "37bec2e9e35a95d7021615fdddfa9159163fa0cd5f18795d27b4ea78e029af04"
+    }
+  ]
+}

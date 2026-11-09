@@ -1,10 +1,10 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {validateConnection,connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,requestAnnotation} from '../versions/0.3.6/annotation-client.mjs';
-import {parseStory} from '../versions/0.3.6/core.mjs';
-import {createAnnotationRunner} from '../versions/0.3.6/assets/annotation-runner.mjs';
-const pack=JSON.parse(fs.readFileSync(new URL('../versions/0.3.6/pack.json',import.meta.url)));
+import {validateConnection,connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,requestAnnotation} from '../versions/0.3.7/annotation-client.mjs';
+import {parseStory} from '../versions/0.3.7/core.mjs';
+import {createAnnotationRunner} from '../versions/0.3.7/assets/annotation-runner.mjs';
+const pack=JSON.parse(fs.readFileSync(new URL('../versions/0.3.7/pack.json',import.meta.url)));
 const parsed=parseStory('号角：先检查走廊。',180,'speaker-lines');
 const config={protocol:'openai',url:'http://127.0.0.1:19099/v1',model:'fixture-model',key:'',maxTokens:16384};
 const args={config,parsed,pack,previous:{},player:{playerName:'测试玩家'},origin:'http://127.0.0.1:19098',headers:{'X-CSRF-Token':'fixture-token'}};

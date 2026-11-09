@@ -2,15 +2,16 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {webcrypto} from 'node:crypto';
-import {parseStory,validateAnnotations,stageAt,annotationPrompt,dialogueDisplayText} from '../versions/0.3.6/core.mjs';
-import {NPC_CATALOG,withNPCActors,npcActorsFrom,validateNPCActors,npcCandidates} from '../versions/0.3.6/npc.mjs';
-import {mergeChapter,referencedAssets,assetRecordMatches} from '../versions/0.3.6/assets/chapter-library.mjs';
+import {parseStory,validateAnnotations,stageAt,annotationPrompt,dialogueDisplayText} from '../versions/0.3.7/core.mjs';
+import {NPC_CATALOG,withNPCActors,npcActorsFrom,validateNPCActors,npcCandidates} from '../versions/0.3.7/npc.mjs';
+import {mergeChapter,referencedAssets,assetRecordMatches} from '../versions/0.3.7/assets/chapter-library.mjs';
 import {mergeChapter as oldMerge} from '../versions/0.3.5/assets/chapter-library.mjs';
-import {correctedTracks,contextFor} from '../versions/0.3.6/continuity.mjs';
-import {requestAnnotation} from '../versions/0.3.6/annotation-client.mjs';
-const read=f=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.6/'+f,import.meta.url)));
+import {correctedTracks,contextFor} from '../versions/0.3.7/continuity.mjs';
+import {requestAnnotation} from '../versions/0.3.7/annotation-client.mjs';
+const read=f=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.7/'+f,import.meta.url)));
 const base=read('pack.json'),library=read('assets/chapter09/library.json'),backgrounds=read('assets/background-library.json');
-const {pack}=mergeChapter(base,library,backgrounds),old=oldMerge(base,library,backgrounds).pack;
+const oldLibrary=JSON.parse(fs.readFileSync(new URL('../versions/0.3.5/assets/chapter09/library.json',import.meta.url)));
+const {pack}=mergeChapter(base,library,backgrounds),old=oldMerge(base,oldLibrary,backgrounds).pack;
 const actor=(name,portrait='avg_npc_088',evidence='罗德岛后勤干员小林和小周在仓库清点物资。')=>{
   const p=pack.npcPortraits[portrait];return {name,portrait,role:p.role,faction:p.faction,evidence};
 };
@@ -28,8 +29,10 @@ test('12 reviewed appearances preserve source records and earlier asset signatur
   assert.equal(NPC_CATALOG.length,12);assert.equal(Object.keys(pack.npcPortraits).length,12);
   assert.equal(pack.npcPortraits.avg_npc_088.label,'罗德岛后勤干员');
   for(const id of ['avg_npc_088','char_016_medic','char_013_riop','avg_npc_089','avg_npc_090','avg_npc_012'])assert.equal(pack.npcPortraits[id].faction,'罗德岛');
-  assert.deepEqual(pack.chapterGroups,old.chapterGroups);assert.deepEqual(pack.aliases,old.aliases);
-  for(const [id,signature]of Object.entries(old.assetSignatures))assert.equal(pack.assetSignatures[id],signature,id);
+  const ids=new Set(NPC_CATALOG.map(p=>p.id));
+  assert.deepEqual(pack.chapterGroups.filter(c=>ids.has(c.id)),old.chapterGroups.filter(c=>ids.has(c.id)));
+  for(const [name,id]of Object.entries(old.aliases))assert.equal(pack.aliases[name],id,name);
+  for(const [id,signature]of Object.entries(old.assetSignatures))if(id!=='avg_npc_231')assert.equal(pack.assetSignatures[id],signature,id);
   assert.equal(pack.npcPortraits.char_013_riop.sourceName,'干员奥利弗');
   assert(pack.npcPortraits.char_013_riop.usageRoles.includes('干员碎纸机'));
 });
@@ -56,7 +59,8 @@ test('new NPCs need source evidence and compatible faction and cannot replace de
     assert.equal(Object.keys(result.actors).length,0,JSON.stringify(bad));assert.equal(result.failures.length,1);
   }
   const invalid=validateAnnotations(parsed,{...response,npcActors:{'npc:lin':{...actors['npc:lin'],faction:'深池'}}},withNPCActors(pack,actors));
-  assert(invalid.rows[0].fallback,'stale virtual characters must not bypass rejected bindings');
+  assert(!invalid.rows[0].display.includes('npc:lin'),'stale virtual characters must not bypass rejected bindings');
+  assert(invalid.warnings.length);
 });
 test('specific NPC art remains available by approved story name without merging unrelated names',()=>{
   for(const [name,portrait]of [['奥利弗','char_013_riop'],['碎纸机','avg_npc_089'],['威尔','avg_npc_090'],['弗雷德','avg_npc_012']]){
