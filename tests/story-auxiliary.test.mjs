@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {parseStory} from '../versions/0.3.7/core.mjs';
-import {contextFor,recordMatches} from '../versions/0.3.7/continuity.mjs';
+import {parseStory} from '../versions/0.3.8/core.mjs';
+import {contextFor,recordMatches} from '../versions/0.3.8/continuity.mjs';
 
 test('preset planning and memory edits do not become story or parallel scenes',()=>{
  const source='<think><details><summary>规划</summary>准备让甲进场。</details><content>不是正文。</content></think><konatan_planning~>另一份规划。</konatan_planning~>\n甲推开门。\n「你好。」\n『Hello.』\n<details><summary>平行事件详情</summary>远处乙正在守夜。</details><IzumiEdit>新建记录\n甲到达了。</IzumiEdit><tucao>附加说明。</tucao>';

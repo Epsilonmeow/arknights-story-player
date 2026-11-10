@@ -1,11 +1,11 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {parseStory,annotationPrompt,validateAnnotations} from '../versions/0.3.7/core.mjs';
-import {mergeChapter,assetRecordMatches} from '../versions/0.3.7/assets/chapter-library.mjs';
+import {parseStory,annotationPrompt,validateAnnotations} from '../versions/0.3.8/core.mjs';
+import {mergeChapter,assetRecordMatches} from '../versions/0.3.8/assets/chapter-library.mjs';
 const read=(version,p)=>JSON.parse(fs.readFileSync(new URL('../versions/'+version+'/'+p,import.meta.url),'utf8'));
 const load=v=>mergeChapter(read(v,'pack.json'),read(v,'assets/chapter09/library.json'),read(v,'assets/background-library.json')).pack;
-const pack=load('0.3.7');
+const pack=load('0.3.8');
 const candidates=text=>JSON.parse(annotationPrompt(parseStory(text),pack).split('候选资料:')[1].split('\n')[0]);
 test('surprised Horn can choose the reviewed surprised face, independently of unrelated prose',()=>{
  const horn=candidates('号角：一颗球？好眼熟。远处的人闭眼休息。').characters.find(c=>c.name==='号角');
@@ -23,7 +23,7 @@ test('Loughshinny resolves to Reed with two outfits, without assigning the gener
  assert(!candidates('一位陌生领袖来到广场。').characters.some(c=>c.id===id));
  assert.equal(pack.characters[id].variants.default,'assets/chapter09/images/0ec11a7cb6ba30ab.png');
  assert.equal(pack.characters[id].default,'default');
- const {poses}=mergeChapter(read('0.3.7','pack.json'),read('0.3.7','assets/chapter09/library.json'),read('0.3.7','assets/background-library.json'));
+ const {poses}=mergeChapter(read('0.3.8','pack.json'),read('0.3.8','assets/chapter09/library.json'),read('0.3.8','assets/background-library.json'));
  assert.equal(poses[id].variants.default.headHeight,225);
  assert.equal(poses[id].variants['avg_npc_231:default'].headHeight,265);
 });

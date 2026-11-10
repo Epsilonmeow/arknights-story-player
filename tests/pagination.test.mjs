@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import * as pagination from '../versions/0.3.7/pagination.mjs';
+import * as pagination from '../versions/0.3.8/pagination.mjs';
 const {paginatePresentation,pageAtOffset}=pagination;
 const fits=(width=30)=>({text})=>text.split('\n').reduce((n,line)=>n+Math.max(1,Math.ceil(Array.from(line).length/width)),0)<=3;
 const letters=text=>text.replace(/\s/gu,'');

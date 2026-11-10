@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,validateConnection} from '../versions/0.3.7/annotation-client.mjs';
+import {connectionStore,CONNECTION_KEY,SESSION_KEY,requestBody,validateConnection} from '../versions/0.3.8/annotation-client.mjs';
 const config={protocol:'openai',url:'http://127.0.0.1:8080/v1',key:'',model:'gemini-3.8-flash'};
 const memory=()=>{const data=new Map();return {getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v),removeItem:k=>data.delete(k)};};
 test('default and blank output limit survive save/reopen and omit the relay token field',()=>{

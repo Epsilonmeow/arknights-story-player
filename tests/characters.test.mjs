@@ -1,12 +1,12 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {parseStory,validateAnnotations,stageAt,annotationPrompt} from '../versions/0.3.7/core.mjs';
-import {mergeChapter} from '../versions/0.3.7/assets/chapter-library.mjs';
-import {playerStagePack,annotationPlayer} from '../versions/0.3.7/assets/player-avatar.mjs';
-import * as staging from '../versions/0.3.7/staging.mjs';
-import {createAnnotationRunner} from '../versions/0.3.7/assets/annotation-runner.mjs';
-const read=p=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.7/'+p,import.meta.url),'utf8'));
+import {parseStory,validateAnnotations,stageAt,annotationPrompt} from '../versions/0.3.8/core.mjs';
+import {mergeChapter} from '../versions/0.3.8/assets/chapter-library.mjs';
+import {playerStagePack,annotationPlayer} from '../versions/0.3.8/assets/player-avatar.mjs';
+import * as staging from '../versions/0.3.8/staging.mjs';
+import {createAnnotationRunner} from '../versions/0.3.8/assets/annotation-runner.mjs';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.8/'+p,import.meta.url),'utf8'));
 const {pack}=mergeChapter(read('pack.json'),read('assets/chapter09/library.json'),read('assets/background-library.json'));
 const player=annotationPlayer({playerName:'测试玩家',name:'测试玩家',characterId:null},{personaId:'fixture.png',playerName:'测试玩家'});
 const scenePack=playerStagePack(pack,player);

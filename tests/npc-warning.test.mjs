@@ -1,10 +1,10 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {parseStory,validateAnnotations} from '../versions/0.3.7/core.mjs';
-import {mergeChapter} from '../versions/0.3.7/assets/chapter-library.mjs';
-import {createAnnotationRunner} from '../versions/0.3.7/assets/annotation-runner.mjs';
-const read=f=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.7/'+f,import.meta.url)));
+import {parseStory,validateAnnotations} from '../versions/0.3.8/core.mjs';
+import {mergeChapter} from '../versions/0.3.8/assets/chapter-library.mjs';
+import {createAnnotationRunner} from '../versions/0.3.8/assets/annotation-runner.mjs';
+const read=f=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.8/'+f,import.meta.url)));
 const {pack}=mergeChapter(read('pack.json'),read('assets/chapter09/library.json'),read('assets/background-library.json'));
 test('row-local NPC declarations pass the same identity checks and survive radio-to-room transition',()=>{
   const parsed=parseStory('罗德岛医疗干员白榆通过无线电说话。\n白榆：收到。\n白榆走进房间。\n白榆：我回来了。',180,'speaker-lines');

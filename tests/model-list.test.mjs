@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {requestModelList} from '../versions/0.3.7/annotation-client.mjs';
+import {requestModelList} from '../versions/0.3.8/annotation-client.mjs';
 
 const args={origin:'http://localhost:8791',headers:{'X-CSRF-Token':'fixture-csrf'},config:{protocol:'openai',url:'http://127.0.0.1:19099/v1',key:''}};
 test('list query needs no model or token limit, and uses only explicit connection credentials',async()=>{
