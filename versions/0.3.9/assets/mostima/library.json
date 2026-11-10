@@ -1,0 +1,4682 @@
+{
+  "schema_version": 2,
+  "scope": "User-requested supplemental character; not chapter 09 coverage",
+  "source_notes": {
+    "requested_script_count": 29,
+    "reference_ids": 6,
+    "additional_config_only": [
+      "char_213_mostma_1#6"
+    ],
+    "unverified": [
+      "native screen scale/anchor",
+      "later story outfits",
+      "avg_213_mostma_1 face assembly"
+    ]
+  },
+  "assets": [
+    {
+      "id": "char_213_mostma_1",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "043b379332f65bf29034b8266afbe3ed83e3b9bf9b9050f4ef1a675c7362fbf9",
+      "description": "睁眼，嘴闭合，嘴角略上扬。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_1"
+      },
+      "uses": [
+        {
+          "node": "story_mostma_1_1",
+          "line": 22,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 27,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 32,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 45,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 47,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 54,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 56,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 58,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 60,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 62,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 64,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 66,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 68,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 72,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 75,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 85,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 88,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 90,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 92,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 94,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 97,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 99,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 101,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 103,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 121,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 125,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 127,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 131,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 134,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 137,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 142,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 148,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 150,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 154,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 157,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 159,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 161,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 164,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 169,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 185,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 187,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 195,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 197,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 203,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 205,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 220,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 222,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 237,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 239,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 241,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 243,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 253,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 255,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 257,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 260,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 262,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 265,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 268,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 270,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 275,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 283,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 287,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 290,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 292,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 295,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 297,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 299,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 301,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 305,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 307,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 311,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 317,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 319,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 322,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 324,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 326,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 332,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 334,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 341,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 344,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 346,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 348,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 350,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 352,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 360,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 364,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 370,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 372,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 374,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 377,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 380,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 386,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 388,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 399,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "level_act5d0_02_end",
+          "line": 110,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 19,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 21,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 23,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 39,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 41,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 44,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 51,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 73,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 114,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 117,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 119,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 121,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 123,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 126,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 128,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 136,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 138,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 140,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 142,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 144,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 146,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 152,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 172,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 174,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 184,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 187,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 60,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 64,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 71,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 73,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 75,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 77,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 79,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 81,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 85,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 87,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 109,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 113,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 115,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 118,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 148,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 157,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 184,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 187,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 189,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 192,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 208,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 211,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_04_beg",
+          "line": 16,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 105,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 107,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 110,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 112,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 114,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 116,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 118,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 121,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 129,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 131,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 133,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 135,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 138,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 153,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 155,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 190,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 192,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 208,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 332,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 334,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 336,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 11,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 14,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 20,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 22,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 46,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 48,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 50,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 54,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 56,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 58,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 79,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 82,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 88,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 90,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 92,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 94,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 114,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 70,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 73,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 85,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 88,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 145,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 147,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 149,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 151,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 332,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 334,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 336,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 339,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 78,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 89,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 91,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 397,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 399,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 405,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 409,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 417,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 419,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 422,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 432,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 434,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 444,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 446,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 448,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 450,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 463,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 465,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 467,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 469,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 554,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 556,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 563,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 566,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 574,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 173,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 175,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 177,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 179,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 181,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 187,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 189,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 198,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 213,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 224,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 227,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 230,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 233,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 245,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 247,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 253,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 262,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 264,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 267,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 269,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 278,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 280,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 282,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 288,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 290,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 293,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 296,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 298,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 302,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 309,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 311,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 313,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 315,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 321,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 350,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 361,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 363,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 398,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 400,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 407,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 410,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 421,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 44,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 46,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 49,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 51,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 68,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 70,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 88,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 91,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 93,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 95,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 97,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 100,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 109,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 111,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 113,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 115,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 241,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 264,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 267,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 270,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 272,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 297,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 299,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 309,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 311,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 366,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 368,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 393,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 395,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "base_full_body",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#1",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "043b379332f65bf29034b8266afbe3ed83e3b9bf9b9050f4ef1a675c7362fbf9",
+      "description": "睁眼，嘴闭合，嘴角略上扬；与无编号默认图相同。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_1"
+      },
+      "uses": [
+        {
+          "node": "level_act5d0_02_end",
+          "line": 130,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#2",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1__2.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "4d20b018dddee6fca99a08e9022f2acf48e34b14c18f94a026d50de1873b960b",
+      "description": "睁眼，嘴张开，嘴角上扬，可见浅色牙齿区域。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_2"
+      },
+      "uses": [
+        {
+          "node": "story_mostma_1_1",
+          "line": 117,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 119,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 144,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 146,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 173,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 216,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 218,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 228,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 230,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 279,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 281,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 313,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 315,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 355,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 358,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "level_act5d0_02_end",
+          "line": 132,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 89,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 95,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 174,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 194,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 196,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 198,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 200,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 203,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 206,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 221,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 223,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 76,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 78,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 84,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 139,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 141,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 194,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 196,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 198,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 200,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 236,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 238,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 240,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 259,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 261,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 295,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 65,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 67,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 69,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 72,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 101,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 48,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 53,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 56,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 66,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 68,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 95,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 97,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 104,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 106,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 110,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 112,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 114,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 116,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 119,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 153,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 155,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 159,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 316,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 318,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 328,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 330,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 387,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 389,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 85,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 87,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 104,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 106,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 155,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 222,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 233,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 316,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 318,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 392,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 394,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 412,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 414,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 428,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 430,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 453,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 455,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 457,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 460,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 131,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 133,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 135,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 140,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 142,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 144,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 146,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 159,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 161,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 191,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 193,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 195,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 304,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 307,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 58,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 60,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 103,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 106,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 200,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 256,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 258,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 260,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 262,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 291,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 294,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 305,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 307,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 345,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 390,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#3",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1__3.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "0571de93425ff5f416f2d3ef45ff0b41cec9e87941d24961566cb0405ffe7570",
+      "description": "双眼闭合呈弧线，嘴闭合，嘴角上扬。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_3"
+      },
+      "uses": [
+        {
+          "node": "story_mostma_1_1",
+          "line": 25,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 36,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 50,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 52,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 105,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 107,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 111,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 139,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 180,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 182,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 189,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 191,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 193,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 224,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 226,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 232,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 234,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 249,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 366,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 368,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 46,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 48,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 131,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 133,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 148,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 150,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 66,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 69,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 141,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 146,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 152,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 162,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 166,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 213,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 215,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 217,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 219,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 123,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 126,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 80,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 82,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 101,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 109,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 119,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 121,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 132,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 186,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 188,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 202,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 205,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 16,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 18,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 24,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 28,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 30,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 32,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 34,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 36,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 44,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 60,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 84,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 106,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 108,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 110,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 112,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 58,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 62,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 64,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 75,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 77,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 90,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 92,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 121,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 123,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 166,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 320,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 322,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 117,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 145,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 160,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 369,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 401,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 403,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 440,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 442,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 568,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 570,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 127,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 129,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 183,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 185,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 200,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 202,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 215,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 217,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 219,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 222,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 236,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 239,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 249,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 251,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 318,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 357,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 359,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 416,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 419,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 39,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 41,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 53,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 55,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 72,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 74,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 83,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 86,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 252,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 254,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 282,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 284,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 287,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 289,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 301,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 303,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 341,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 343,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 370,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 384,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 386,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#4",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1__4.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "1b976a1a5e91f6b14814848706fc261bb4d11d152d468b737170aeb1c19f13e1",
+      "description": "双眼睁开，嘴张成较小的圆形。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_4"
+      },
+      "uses": [
+        {
+          "node": "story_mostma_1_1",
+          "line": 19,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 41,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 43,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 199,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 201,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 245,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 247,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 101,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 103,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 105,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_end",
+          "line": 107,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_06_end",
+          "line": 97,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 247,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 249,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 285,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_07_end",
+          "line": 287,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 6,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 38,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 74,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 76,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 81,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 83,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 99,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_end",
+          "line": 101,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 162,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 164,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 324,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_beg",
+          "line": 326,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 81,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 83,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 101,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 235,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 436,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 438,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 559,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_10_end",
+          "line": 561,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 154,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 156,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 241,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 243,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 353,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 355,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 412,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 414,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 76,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 78,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 141,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 274,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 276,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 278,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 280,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 362,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 364,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#5",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1__5.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "ddf92ac536defc7ae5afbf8b7b6cefd25ce41a91698bb461e2ee97de8105e57c",
+      "description": "双眼闭合，眉线较平，嘴闭合。",
+      "display_label": "莫斯提马",
+      "auto_eligible": true,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_5"
+      },
+      "uses": [
+        {
+          "node": "story_mostma_1_1",
+          "line": 29,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 207,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 210,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 212,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 214,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 272,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "line": 337,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "story_mostma_set_1"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 176,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 178,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 180,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_03_beg",
+          "line": 182,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 96,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_08_beg",
+          "line": 98,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 284,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 286,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 402,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st01",
+          "line": 405,
+          "command": "character",
+          "parameter": "name2",
+          "group_id": "act5d0"
+        },
+        {
+          "node": "level_act5d0_st03",
+          "line": 416,
+          "command": "character",
+          "parameter": "name",
+          "group_id": "act5d0"
+        }
+      ],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。"
+      ],
+      "script_id_status": "observed_in_requested_scripts"
+    },
+    {
+      "id": "char_213_mostma_1#6",
+      "type": "character",
+      "character_id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "file": "assets/mostima/char_213_mostma_1__6.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "sha256": "37bec2e9e35a95d7021615fdddfa9159163fa0cd5f18795d27b4ea78e029af04",
+      "description": "头部及上半身大面积呈黑色暗影，腿部保留部分颜色；无法确认脸部表情。",
+      "display_label": "莫斯提马 · 暗影（仅手动预览）",
+      "auto_eligible": false,
+      "source": {
+        "bundle": "avg/characters/char_213_mostma_1.ab",
+        "sha256": "8f323d3da15a6a70db4b668920a58965b4ac5d23d087d859cf0211d2524101e0",
+        "body_sprite": "char_213_mostma_1",
+        "variant_sprite": "char_213_mostma_6"
+      },
+      "uses": [],
+      "composition": {
+        "kind": "whole_body_replacement",
+        "face_position": [
+          -1,
+          -1
+        ],
+        "face_size": [
+          0,
+          0
+        ],
+        "is_whole_body_flag": 0,
+        "note": "虽然isWholeBody字段为0，但FaceSize为0且FacePos为(-1,-1)，导出的是完整替换纹理，不是脸部贴片。"
+      },
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "usage_restrictions": [
+        "保留原始1024×1024透明画布；头部范围只供网页构图校准。",
+        "未核对原生客户端像素、舞台缩放、锚点和亮暗参数。",
+        "暗影效果原始纹理已导出，不推荐作为默认图或普通表情。用途及剧情使用位置未知；已扫描的5638份文本未发现该标识。",
+        "暗影变体，目标剧情中的用途未确认；不进入自动标注候选，可在素材库手动预览。"
+      ],
+      "script_id_status": "derived_from_config_index; no reference found in indexed scripts"
+    }
+  ],
+  "characters": [
+    {
+      "id": "char_213_mostma_1",
+      "name": "莫斯提马",
+      "aliases": [],
+      "default_asset_id": "char_213_mostma_1",
+      "name_evidence": [
+        {
+          "node": "story_mostma_1_1",
+          "portrait_line": 19,
+          "portrait_id": "char_213_mostma_1#4",
+          "speaker_line": 21,
+          "speaker": "莫斯提马",
+          "sha256": "c22572fff2728710f79eb9e17179990a3ecb898af1496927fb18bfd2daa70f3d"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "portrait_line": 22,
+          "portrait_id": "char_213_mostma_1",
+          "speaker_line": 21,
+          "speaker": "莫斯提马",
+          "sha256": "c22572fff2728710f79eb9e17179990a3ecb898af1496927fb18bfd2daa70f3d"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "portrait_line": 25,
+          "portrait_id": "char_213_mostma_1#3",
+          "speaker_line": 24,
+          "speaker": "莫斯提马",
+          "sha256": "c22572fff2728710f79eb9e17179990a3ecb898af1496927fb18bfd2daa70f3d"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "portrait_line": 29,
+          "portrait_id": "char_213_mostma_1#5",
+          "speaker_line": 28,
+          "speaker": "莫斯提马",
+          "sha256": "c22572fff2728710f79eb9e17179990a3ecb898af1496927fb18bfd2daa70f3d"
+        },
+        {
+          "node": "story_mostma_1_1",
+          "portrait_line": 117,
+          "portrait_id": "char_213_mostma_1#2",
+          "speaker_line": 118,
+          "speaker": "莫斯提马",
+          "sha256": "c22572fff2728710f79eb9e17179990a3ecb898af1496927fb18bfd2daa70f3d"
+        }
+      ],
+      "shared_npc": false,
+      "period": null,
+      "outfit_official_name": null,
+      "name_status": "confirmed_from_script",
+      "name_kind": "named_identity",
+      "variant_ids": [
+        "char_213_mostma_1",
+        "char_213_mostma_1#1",
+        "char_213_mostma_1#2",
+        "char_213_mostma_1#3",
+        "char_213_mostma_1#4",
+        "char_213_mostma_1#5",
+        "char_213_mostma_1#6"
+      ],
+      "outfit": {
+        "description": "蓝发、头顶光环、深色带浅色毛边外套、浅色内搭、深色短下装和靴子；正式服装名称未确认。"
+      }
+    }
+  ],
+  "calibration": [
+    {
+      "character_id": "char_213_mostma_1",
+      "default_asset_id": "char_213_mostma_1",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "head_bbox": [
+        425,
+        42,
+        585,
+        220
+      ],
+      "method": "manual_visual_estimate",
+      "note": "Source reference excludes halo; face alignment is maintained separately in portrait-layout.json."
+    }
+  ]
+}

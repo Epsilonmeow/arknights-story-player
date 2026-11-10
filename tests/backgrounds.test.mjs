@@ -1,13 +1,13 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {backgroundFor} from '../versions/0.3.8/app.mjs';
-import {mergeChapter,referencedAssets,assetRecordMatches} from '../versions/0.3.8/assets/chapter-library.mjs';
-import {parseStory,stageAt,validateAnnotations,annotationPrompt,REVISION} from '../versions/0.3.8/core.mjs';
-import {selectCandidates} from '../versions/0.3.8/staging.mjs';
-import {backgroundAllowed} from '../versions/0.3.8/background-policy.mjs';
+import {backgroundFor} from '../versions/0.3.9/app.mjs';
+import {mergeChapter,referencedAssets,assetRecordMatches} from '../versions/0.3.9/assets/chapter-library.mjs';
+import {parseStory,stageAt,validateAnnotations,annotationPrompt,REVISION} from '../versions/0.3.9/core.mjs';
+import {selectCandidates} from '../versions/0.3.9/staging.mjs';
+import {backgroundAllowed} from '../versions/0.3.9/background-policy.mjs';
 const read=(v,f)=>JSON.parse(fs.readFileSync(new URL('../versions/'+v+'/'+f,import.meta.url)));
-function setup(v='0.3.8') {
+function setup(v='0.3.9') {
   const library=read(v,'assets/background-library.json');
   const merged=mergeChapter(read(v,'pack.json'),read(v,'assets/chapter09/library.json'),library);
   library.entries.push(...merged.backgroundEntries.filter(a=>!library.entries.some(b=>b.id===a.id)));
@@ -87,7 +87,7 @@ test('candidate restrictions survive merging and mere dialogue cannot authorize 
 });
 test('display corrections preserve existing annotation compatibility and referenced image identities',()=>{
   assert.equal(REVISION,'0.2.1');
-  assert.deepEqual(read('0.3.8','pack.json'),read('0.3.3','pack.json'));
+  assert.deepEqual(read('0.3.9','pack.json'),read('0.3.3','pack.json'));
   const old=setup('0.3.3').pack;
   const record={assetRefs:referencedAssets([{background:'bg_corridor'},{background:'21_G9_rhodes_xqoffice'}],{},old)};
   assert(assetRecordMatches(record,pack));

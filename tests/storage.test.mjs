@@ -1,7 +1,7 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {preferenceStore,readAnnotationRecord,saveAnnotationRecord} from '../versions/0.3.8/persistence.mjs';
-import {createAnnotationRunner} from '../versions/0.3.8/assets/annotation-runner.mjs';
+import {preferenceStore,readAnnotationRecord,saveAnnotationRecord,chatSaveVerifier,annotationDraftStore} from '../versions/0.3.9/persistence.mjs';
+import {createAnnotationRunner} from '../versions/0.3.9/assets/annotation-runner.mjs';
 
 const recordKey='ark_story_player_v1_v2',cacheKey='ark_story_player_v1:cache:fixture';
 const next={hash:'source',rows:[{id:'f1',speaker:'speaker'}],failures:[]};
@@ -37,6 +37,56 @@ test('chat save rejection restores the previous record and preserves other messa
     await assert.rejects(saveAnnotationRecord(message,recordKey,next,async()=>{throw Error('server unavailable');}),/server unavailable/);
     assert.deepEqual(message,before);
   }
+});
+
+test('a swallowed host save failure cannot report annotation success',async()=>{
+  const message={mes:'Original',extra:{[recordKey]:{model:'old'}}},before=structuredClone(message),reports=[];
+  let modelCalls=0;
+  const runner=createAnnotationRunner();
+  const result=await runner.run({force:true,report:t=>reports.push(t),onBusy(){},capture:async()=>({}),assertCurrent:async()=>{},
+    request:async()=>{modelCalls++;return next;},validate:r=>r,
+    commit:r=>saveAnnotationRecord(message,recordKey,r,async()=>{},async()=>false)});
+  assert.equal(result.kind,'error');
+  assert.equal(modelCalls,1);
+  assert.deepEqual(message,before);
+  assert(!reports.some(t=>t.startsWith('标注完成')));
+});
+
+test('saving is confirmed against the original server chat, message, swipe and record',async()=>{
+  const message={mes:'Original',swipe_id:2,extra:{[recordKey]:next}},metadata={corrections:[{place:'room'}]};
+  let file=[{chat_metadata:{scene:metadata}},structuredClone(message)],requestBody;
+  const c={chat:[message],characterId:0,characters:[{name:'Test',avatar:'Test.png'}],getCurrentChatId:()=> 'fixture-chat',getRequestHeaders:()=>({'Content-Type':'application/json'})};
+  const fetcher=async(url,options)=>{assert.equal(url,'/api/chats/get');requestBody=JSON.parse(options.body);return Response.json(file);};
+  const verify=chatSaveVerifier(c,fetcher,{id:0,recordKey,record:next,metadataKey:'scene',metadataValue:metadata});
+  c.characters[0].avatar='Other.png';c.getCurrentChatId=()=> 'other-chat';
+  assert.equal(await verify(),true);assert.equal(requestBody.avatar_url,'Test.png');assert.equal(requestBody.file_name,'fixture-chat');
+  for(const change of [f=>f[1].extra[recordKey]={model:'old'},f=>f[1].mes='Edited',f=>f[1].swipe_id=3,f=>f[0].chat_metadata.scene={}]){
+    file=[{chat_metadata:{scene:metadata}},structuredClone(message)];change(file);assert.equal(await verify(),false);
+  }
+  for(const fetcher of [async()=>new Response('',{status:500}),async()=>{throw Error('offline');},async()=>Response.json({})]){
+    assert.equal(await chatSaveVerifier(c,fetcher,{id:0,recordKey,record:next})(),false);
+  }
+});
+
+test('group save verification handles the host header without mixing group id and chat id',async()=>{
+  const c={groupId:'group',getCurrentChatId:()=> 'group-chat',chat:[{mes:'Original'}],getRequestHeaders:()=>({})};
+  const verify=chatSaveVerifier(c,async(url,options)=>{
+    assert.equal(url,'/api/chats/group/get');assert.deepEqual(JSON.parse(options.body),{id:'group-chat'});
+    return Response.json([{chat_metadata:{}},{mes:'Original',extra:{[recordKey]:next}}]);
+  },{id:0,recordKey,record:next});
+  assert.equal(await verify(),true);
+});
+
+test('retrying a retained result skips the model even when the caller asks to regenerate',async()=>{
+  const drafts=annotationDraftStore(undefined),message={mes:'Original'},reports=[];let modelCalls=0,saves=0,confirmed=false;
+  const runner=createAnnotationRunner(),key='chat|hash|swipe';
+  const job={force:true,report:t=>reports.push(t),onBusy(){},capture:async()=>({pending:await drafts.get(key)}),assertCurrent:async()=>{},
+    request:async()=>{modelCalls++;return next;},validate:r=>r,
+    commit:async record=>{await drafts.put(key,record);await saveAnnotationRecord(message,recordKey,record,async()=>{saves++;},async()=>confirmed);await drafts.remove(key);}};
+  assert.equal((await runner.run(job)).kind,'error');assert.equal(drafts.temporary,true);assert.equal(message.extra,undefined);
+  confirmed=true;assert.equal((await runner.run(job)).kind,'success');
+  assert.equal(modelCalls,1);assert.equal(saves,2);assert.equal(await drafts.get(key),undefined);assert.equal(drafts.temporary,false);
+  assert(reports.some(t=>t.includes('没有调用模型')));
 });
 
 test('chat records take priority; compatible legacy-only annotations remain readable',()=>{

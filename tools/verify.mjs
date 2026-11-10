@@ -3,9 +3,9 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import assert from 'node:assert/strict';
 import {fileURLToPath} from 'node:url';
-import {validatePack} from '../versions/0.3.8/core.mjs';
-import {mergeChapter} from '../versions/0.3.8/assets/chapter-library.mjs';
-const root=path.dirname(path.dirname(fileURLToPath(import.meta.url))),v=path.join(root,'versions/0.3.8');
+import {validatePack} from '../versions/0.3.9/core.mjs';
+import {mergeChapter} from '../versions/0.3.9/assets/chapter-library.mjs';
+const root=path.dirname(path.dirname(fileURLToPath(import.meta.url))),v=path.join(root,'versions/0.3.9');
 const read=f=>JSON.parse(fs.readFileSync(f));
 const originalImages=read(path.join(root,'asset-checksums.json')).images;
 assert.equal(originalImages.length,172);
@@ -21,5 +21,5 @@ const forbidden=/^(?:state|private|backups|evidence|node_modules|\.env)(?:$|\.)/
 let files=0;
 function scan(dir){for(const d of fs.readdirSync(dir,{withFileTypes:true})){if(d.name==='.git')continue;assert(!forbidden.test(d.name),'Private/development path: '+d.name);const p=path.join(dir,d.name);if(d.isDirectory())scan(p);else{files++;if(/\.(mjs|json|html|css|md)$/.test(d.name)){const text=fs.readFileSync(p,'utf8');assert(!/[A-Z]:[\\/](?:Users|桌面|Documents|下载)/i.test(text),'Private absolute path in '+path.relative(root,p));if(p.startsWith(v))assert(!/127\.0\.0\.1:8787|gemini-4-argon|\/api\/reserve/.test(text),'Developer transport in runtime');}}}}
 scan(root);
-const loader=read(path.join(root,'install/风暴瞭望-0.3.8.json'));assert.equal(loader.enabled,false);assert(loader.content.includes('/versions/0.3.8/app.mjs'));assert.deepEqual(loader.data,{});
+const loader=read(path.join(root,'install/风暴瞭望-0.3.9.json'));assert.equal(loader.enabled,false);assert(loader.content.includes('/versions/0.3.9/app.mjs'));assert.deepEqual(loader.data,{});
 console.log(JSON.stringify({files,pngs:images.length,bytes:images.reduce((n,x)=>n+x.bytes,0),chapterAssets:pack.chapterRegistry.length,supplementAssets:pack.supplementRegistry.length,passed:true}));

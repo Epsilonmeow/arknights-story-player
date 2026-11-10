@@ -1,11 +1,11 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {portraitStyle,mergePortraitLayout} from '../versions/0.3.8/app.mjs';
-import {mergeChapter,assetRecordMatches} from '../versions/0.3.8/assets/chapter-library.mjs';
-import {parseStory,annotationPrompt,validateAnnotations} from '../versions/0.3.8/core.mjs';
-import {NPC_CATALOG} from '../versions/0.3.8/npc.mjs';
-const read=p=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.8/'+p,import.meta.url)));
+import {portraitStyle,mergePortraitLayout} from '../versions/0.3.9/app.mjs';
+import {mergeChapter,assetRecordMatches} from '../versions/0.3.9/assets/chapter-library.mjs';
+import {parseStory,annotationPrompt,validateAnnotations} from '../versions/0.3.9/core.mjs';
+import {NPC_CATALOG} from '../versions/0.3.9/npc.mjs';
+const read=p=>JSON.parse(fs.readFileSync(new URL('../versions/0.3.9/'+p,import.meta.url)));
 const base=read('pack.json'),library=read('assets/chapter09/library.json'),backgrounds=read('assets/background-library.json');
 const {pack,poses}=mergeChapter(base,library,backgrounds,read('assets/mostima/library.json'));
 const layout=mergePortraitLayout(read('assets/portrait-layout.json'),poses,base.characters);
